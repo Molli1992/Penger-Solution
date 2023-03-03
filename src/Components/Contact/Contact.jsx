@@ -10,7 +10,7 @@ function Contact() {
 
     return (
 
-        <Box padding="0 80px">
+        <Box padding="0 150px">
 
             <Stack alignItems="center" background="gray">
 
@@ -19,7 +19,7 @@ function Contact() {
                     overflow='hidden'
                     variant='outline'
                     alignItems="center"
-                    gap="30px"
+                    gap="100px"
                 >
 
                     <Stack alignItems="center">

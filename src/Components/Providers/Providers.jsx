@@ -114,11 +114,11 @@ function Providers() {
 
                 <Box>
 
-                    <button type="button" class="btn btn-primary" onClick={prevHandler}>
+                    <button type="button" class="btn btn-outline-primary" onClick={prevHandler}>
                         Prev Picture
                     </button>
 
-                    <button type="button" class="btn btn-primary" onClick={nextHandler}>
+                    <button type="button" class="btn btn-outline-primary" onClick={nextHandler}>
                         Next Picture
                     </button>
 

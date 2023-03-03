@@ -13,9 +13,13 @@ function Home() {
 
             <Box>
 
+
+                <br></br>
+                <br></br>
+
                 <Stack alignItems="center">
                     <Image
-                        width="1200px"
+                        width="1100px"
                         src='https://static.wixstatic.com/media/fdc8a1b7183a4e4591de19b31b0c02a1.jpg/v1/fill/w_940,h_440,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Cargo%20Shipping%20Containers.jpg'
                         alt='Containers'
                     />
@@ -41,6 +45,7 @@ function Home() {
                         overflow='hidden'
                         variant='outline'
                         alignItems="center"
+                        gap="30px"
                     >
                         <Image
                             alignItems="center"
@@ -97,6 +102,7 @@ function Home() {
                         overflow='hidden'
                         variant='outline'
                         alignItems="center"
+                        gap="30px"
                     >
                         <Image
                             alignItems="center"
@@ -144,6 +150,7 @@ function Home() {
                         overflow='hidden'
                         variant='outline'
                         alignItems="center"
+                        gap="30px"
                     >
 
                         <Stack alignItems="center">
@@ -180,52 +187,57 @@ function Home() {
                 <br></br>
                 <br></br>
 
-                <Stack alignItems="center" background="gray">
+                <Box padding="0 80px">
 
-                    <Card
-                        direction={{ base: 'column', sm: 'row' }}
-                        overflow='hidden'
-                        variant='outline'
-                        alignItems="center"
-                    >
+                    <Stack alignItems="center" background="gray">
 
-                        <Stack alignItems="center">
-
-                            <CardBody alignItems="center">
-
-                                <Stack alignItems="center">
-
-                                    <Text fontSize='40px'>Get in Touch</Text>
-                                    <br></br>
-                                    <Text fontSize='20px'>Questions, comments or requests? Feel free to reach out, we’d love</Text>
-                                    <Text fontSize='20px'>to hear from you. </Text>
-                                    <Text fontSize='20px'>James Cartier, Business Relationship Manager</Text>
-                                    <br></br>
-                                    <br></br>
-                                    <Text fontSize='20px'>7901 4th St N</Text>
-                                    <Text fontSize='20px'>STE 5368</Text>
-                                    <Text fontSize='20px'>St. Petersburg, FL 33702</Text>
-                                    <br></br>
-                                    <br></br>
-                                    <Text fontSize='20px'>info@luminacrystal.net</Text>
-
-                                </Stack>
-
-                            </CardBody>
-
-                        </Stack>
-
-                        <Image
+                        <Card
+                            direction={{ base: 'column', sm: 'row' }}
+                            overflow='hidden'
+                            variant='outline'
                             alignItems="center"
-                            objectFit='cover'
-                            maxW={{ base: '100%', sm: '200px' }}
-                            src='https://static.wixstatic.com/media/11062b_072eab0b69e54b779cd6e2e7ead60019~mv2_d_5977_3985_s_4_2.jpg/v1/fill/w_595,h_560,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_072eab0b69e54b779cd6e2e7ead60019~mv2_d_5977_3985_s_4_2.jpg'
-                            alt='Containers'
-                        />
+                            gap="30px"
+                        >
 
-                    </Card>
+                            <Stack alignItems="center">
 
-                </Stack>
+                                <CardBody alignItems="center">
+
+                                    <Stack alignItems="center">
+
+                                        <Text fontSize='40px'>Get in Touch</Text>
+                                        <br></br>
+                                        <Text fontSize='20px'>Questions, comments or requests? Feel free to reach out, we’d love</Text>
+                                        <Text fontSize='20px'>to hear from you. </Text>
+                                        <Text fontSize='20px'>James Cartier, Business Relationship Manager</Text>
+                                        <br></br>
+                                        <br></br>
+                                        <Text fontSize='20px'>7901 4th St N</Text>
+                                        <Text fontSize='20px'>STE 5368</Text>
+                                        <Text fontSize='20px'>St. Petersburg, FL 33702</Text>
+                                        <br></br>
+                                        <br></br>
+                                        <Text fontSize='20px'>info@luminacrystal.net</Text>
+
+                                    </Stack>
+
+                                </CardBody>
+
+                            </Stack>
+
+                            <Image
+                                alignItems="center"
+                                objectFit='cover'
+                                maxW={{ base: '100%', sm: '200px' }}
+                                src='https://static.wixstatic.com/media/11062b_072eab0b69e54b779cd6e2e7ead60019~mv2_d_5977_3985_s_4_2.jpg/v1/fill/w_595,h_560,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_072eab0b69e54b779cd6e2e7ead60019~mv2_d_5977_3985_s_4_2.jpg'
+                                alt='Containers'
+                            />
+
+                        </Card>
+
+                    </Stack>
+
+                </Box>
 
             </Box>
 

@@ -17,11 +17,11 @@ function NavBar(props) {
                 </a>
 
                 <ul class="nav nav-pills">
-                    <li class="nav-item"><a href="/" class="nav-link active" aria-current="page">Home</a></li>
+                    <li class="nav-item"><a href="/" class="nav-link" aria-current="page">Home</a></li>
                     <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="/servies" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="/services" class="nav-link">Services</a></li>
                     <li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
-                    <li class="nav-item"><a href="/about-1" class="nav-link">Paymnet Providers</a></li>
+                    <li class="nav-item"><a href="/about-1" class="nav-link">Freight Payment Providers</a></li>
                 </ul>
 
             </header>

@@ -10,7 +10,10 @@ function Contact() {
 
     return (
 
-        <Box padding="0 150px">
+        <Box padding="0 150px" backgroundColor="black">
+
+            <br></br>
+            <br></br>
 
             <Stack alignItems="center" background="gray">
 
@@ -59,6 +62,9 @@ function Contact() {
                 </Card>
 
             </Stack>
+
+            <br></br>
+            <br></br>
 
         </Box>
     );

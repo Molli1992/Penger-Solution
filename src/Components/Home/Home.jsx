@@ -11,7 +11,7 @@ function Home() {
 
         <div>
 
-            <Box>
+            <Box backgroundColor="black">
 
 
                 <br></br>
@@ -29,10 +29,10 @@ function Home() {
                 <br></br>
 
                 <Stack alignItems="center">
-                    <Text fontSize='60px'>Welcome to Lumina Crystal</Text>
-                    <Text fontSize='40px'>ALWAYS AT YOUR SERVICE</Text>
+                    <Text fontSize='60px' color="white">Welcome to Lumina Crystal</Text>
+                    <Text fontSize='40px' color="white">ALWAYS AT YOUR SERVICE</Text>
                     <br></br>
-                    <Text fontSize='25px'>Fair prices, superior quality and exceptional customer service are guaranteed when you work with us.</Text>
+                    <Text fontSize='25px' color="white">Fair prices, superior quality and exceptional customer service are guaranteed when you work with us.</Text>
                 </Stack>
 
                 <br></br>
@@ -61,15 +61,15 @@ function Home() {
 
                                 <Stack alignItems="center">
 
-                                    <Text fontSize='40px'>About Lumina Crystal</Text>
-                                    <Text fontSize='25px'>HONEST & EFFICIENT WORK</Text>
+                                    <Text fontSize='40px' color="white">About Lumina Crystal</Text>
+                                    <Text fontSize='25px' color="white">HONEST & EFFICIENT WORK</Text>
                                     <br></br>
-                                    <Text fontSize='20px'>Our mission at Lumina Crystal is simple: to provide high-quality</Text>
-                                    <Text fontSize='20px'>services for our valued clients. Our team goes above and beyond to</Text>
-                                    <Text fontSize='20px'>cater to each project’s specific needs. Through open</Text>
-                                    <Text fontSize='20px'>communication and exceptional service, we hope you’ll find what</Text>
-                                    <Text fontSize='20px'>you’re looking for with our Logistics Service. For more information or</Text>
-                                    <Text fontSize='20px'>general inquiries, get in touch today.</Text>
+                                    <Text fontSize='20px' color="white">Our mission at Lumina Crystal is simple: to provide high-quality</Text>
+                                    <Text fontSize='20px' color="white">services for our valued clients. Our team goes above and beyond to</Text>
+                                    <Text fontSize='20px' color="white">cater to each project’s specific needs. Through open</Text>
+                                    <Text fontSize='20px' color="white">communication and exceptional service, we hope you’ll find what</Text>
+                                    <Text fontSize='20px' color="white">you’re looking for with our Logistics Service. For more information or</Text>
+                                    <Text fontSize='20px' color="white">general inquiries, get in touch today.</Text>
 
                                 </Stack>
 
@@ -86,8 +86,8 @@ function Home() {
 
                 <Stack alignItems="center">
 
-                    <Text fontSize='40px'>Our Services</Text>
-                    <Text fontSize='25px'>WHAT WE PROVIDE</Text>
+                    <Text fontSize='40px' color="white">Our Services</Text>
+                    <Text fontSize='25px' color="white">WHAT WE PROVIDE</Text>
 
                 </Stack>
 
@@ -118,15 +118,15 @@ function Home() {
 
                                 <Stack alignItems="center">
 
-                                    <Text fontSize='40px'>INTERNATIONAL ADVISORY</Text>
+                                    <Text fontSize='40px' color="white">INTERNATIONAL ADVISORY</Text>
                                     <br></br>
-                                    <Text fontSize='20px'>We offer differentiated solutions in the</Text>
-                                    <Text fontSize='20px'>search of products, partners, and new</Text>
-                                    <Text fontSize='20px'>markets. We develop an in-depth market</Text>
-                                    <Text fontSize='20px'>research using the SWOT analysis tool to</Text>
-                                    <Text fontSize='20px'>fulfill each client needs and facilitate the</Text>
-                                    <Text fontSize='20px'>success of products in international</Text>
-                                    <Text fontSize='20px'>markets.</Text>
+                                    <Text fontSize='20px' color="white">We offer differentiated solutions in the</Text>
+                                    <Text fontSize='20px' color="white">search of products, partners, and new</Text>
+                                    <Text fontSize='20px' color="white">markets. We develop an in-depth market</Text>
+                                    <Text fontSize='20px' color="white">research using the SWOT analysis tool to</Text>
+                                    <Text fontSize='20px' color="white">fulfill each client needs and facilitate the</Text>
+                                    <Text fontSize='20px' color="white">success of products in international</Text>
+                                    <Text fontSize='20px' color="white">markets.</Text>
 
                                 </Stack>
 
@@ -159,12 +159,12 @@ function Home() {
 
                                 <Stack alignItems="center">
 
-                                    <Text fontSize='40px'>STRATEGIC GLOBAL SOURCING</Text>
+                                    <Text fontSize='40px' color="white">STRATEGIC GLOBAL SOURCING</Text>
                                     <br></br>
-                                    <Text fontSize='20px'>Conquer Trader works with clients to</Text>
-                                    <Text fontSize='20px'>enhance their competitive advantage by</Text>
-                                    <Text fontSize='20px'>locating partners/buyers in various countries</Text>
-                                    <Text fontSize='20px'>to sell products and services in new markets</Text>
+                                    <Text fontSize='20px' color="white">Conquer Trader works with clients to</Text>
+                                    <Text fontSize='20px' color="white">enhance their competitive advantage by</Text>
+                                    <Text fontSize='20px' color="white">locating partners/buyers in various countries</Text>
+                                    <Text fontSize='20px' color="white">to sell products and services in new markets</Text>
 
                                 </Stack>
 

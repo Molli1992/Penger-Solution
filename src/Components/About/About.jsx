@@ -9,7 +9,9 @@ function About() {
 
     return (
 
-        <Box>
+        <Box backgroundColor="black">
+
+            <br></br>
 
             <Stack alignItems="center">
 
@@ -34,15 +36,15 @@ function About() {
 
                             <Stack alignItems="center">
 
-                                <Text fontSize='40px'>All About Lumina Crystal</Text>
-                                <Text fontSize='25px'>PROFESSIONALISM. EXCELLENCE. TIMELINESS.</Text>
+                                <Text fontSize='40px' color="white">All About Lumina Crystal</Text>
+                                <Text fontSize='25px' color="white">PROFESSIONALISM. EXCELLENCE. TIMELINESS.</Text>
                                 <br></br>
-                                <Text fontSize='20px'>Fast, efficient, and honest, Lumina Crystal has become a reputable</Text>
-                                <Text fontSize='20px'>and well-known Logistics Service. Our team is up for every job,</Text>
-                                <Text fontSize='20px'>managing projects with the skill and experience our clients have</Text>
-                                <Text fontSize='20px'>come to expect. We want our customers to be satisfied with our</Text>
-                                <Text fontSize='20px'>work, which is why we provide open communication channels</Text>
-                                <Text fontSize='20px'>throughout the duration of each project.</Text>
+                                <Text fontSize='20px' color="white">Fast, efficient, and honest, Lumina Crystal has become a reputable</Text>
+                                <Text fontSize='20px' color="white">and well-known Logistics Service. Our team is up for every job,</Text>
+                                <Text fontSize='20px' color="white">managing projects with the skill and experience our clients have</Text>
+                                <Text fontSize='20px' color="white">come to expect. We want our customers to be satisfied with our</Text>
+                                <Text fontSize='20px' color="white">work, which is why we provide open communication channels</Text>
+                                <Text fontSize='20px' color="white">throughout the duration of each project.</Text>
                                 <br></br>
                                 <br></br>
                                 <br></br>
@@ -57,6 +59,8 @@ function About() {
                 </Card>
 
             </Stack>
+
+            <br></br>
 
         </Box>
 

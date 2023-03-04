@@ -38,71 +38,74 @@ function Providers() {
 
     return (
 
-        <Box>
+        <Box backgroundColor="black">
+
+            <br></br>
+            <br></br>
 
             <Stack alignItems="center">
 
-                <Text fontSize="40px">About</Text>
-                <Text fontSize="25px">Freight Payment Providers</Text>
+                <Text fontSize="40px" color="white">About</Text>
+                <Text fontSize="25px" color="white">Freight Payment Providers</Text>
 
-                <Text fontSize="20px">Freight payment providers or third-party logistics providers (3PL’s) act as the intermediary between two parties in</Text>
-                <Text fontSize="20px">the receiving, processing, payment of accounts payable. While each 3PL provides unique freight payment solutions,</Text>
-                <Text fontSize="20px">generally speaking, invoices are processed and paid directly by the 3PL, then reimbursed by the client. Essentially,</Text>
-                <Text fontSize="20px">the outsourced freight invoice payment company eliminates the need for an account payable division within</Text>
-                <Text fontSize="20px">companies or organizations. This saves the company money on payroll and allows them to allocate those</Text>
-                <Text fontSize="20px">employees to more productive business growth or operations roles.</Text>
-
-                <br></br>
-
-                <Text fontSize="20px">Invoice processing is a rather complex series of individual steps to ensure prompt and accurate payment of</Text>
-                <Text fontSize="20px">invoices. Noted below are the common steps that professional 3PL’s use to review, process, and pay freight bills on</Text>
-                <Text fontSize="20px">behalf of their clients.</Text>
+                <Text fontSize="20px" color="white">Freight payment providers or third-party logistics providers (3PL’s) act as the intermediary between two parties in</Text>
+                <Text fontSize="20px" color="white">the receiving, processing, payment of accounts payable. While each 3PL provides unique freight payment solutions,</Text>
+                <Text fontSize="20px" color="white">generally speaking, invoices are processed and paid directly by the 3PL, then reimbursed by the client. Essentially,</Text>
+                <Text fontSize="20px" color="white">the outsourced freight invoice payment company eliminates the need for an account payable division within</Text>
+                <Text fontSize="20px" color="white">companies or organizations. This saves the company money on payroll and allows them to allocate those</Text>
+                <Text fontSize="20px" color="white">employees to more productive business growth or operations roles.</Text>
 
                 <br></br>
 
-                <Text fontSize="20px">• Receipt of the Invoice: When a partnership has been created between a shipper and a 3PL, all carriers are notified</Text>
-                <Text fontSize="20px">that the freight payment company is acting on behalf of their client. At this point, all carriers will submit invoices to</Text>
-                <Text fontSize="20px">the 3PL or intermediary in multiple formats for processing. In most cases, the typical method of invoice submittal</Text>
-                <Text fontSize="20px">includes USPS mail or electronic invoices sent via EDI.</Text>
+                <Text fontSize="20px" color="white">Invoice processing is a rather complex series of individual steps to ensure prompt and accurate payment of</Text>
+                <Text fontSize="20px" color="white">invoices. Noted below are the common steps that professional 3PL’s use to review, process, and pay freight bills on</Text>
+                <Text fontSize="20px" color="white">behalf of their clients.</Text>
 
                 <br></br>
 
-                <Text fontSize="20px">• Validation of the Invoice: Once the invoices from carriers have been received by the 3PL, the freight payment</Text>
-                <Text fontSize="20px">provider will validate each invoice to ensure that duplicate charges are not appearing on the invoice, are charges</Text>
-                <Text fontSize="20px">that have been incurred by the shipper, and include all required documentation.</Text>
+                <Text fontSize="20px" color="white">• Receipt of the Invoice: When a partnership has been created between a shipper and a 3PL, all carriers are notified</Text>
+                <Text fontSize="20px" color="white">that the freight payment company is acting on behalf of their client. At this point, all carriers will submit invoices to</Text>
+                <Text fontSize="20px" color="white">the 3PL or intermediary in multiple formats for processing. In most cases, the typical method of invoice submittal</Text>
+                <Text fontSize="20px" color="white">includes USPS mail or electronic invoices sent via EDI.</Text>
 
                 <br></br>
 
-                <Text fontSize="20px">• Capturing Data: This is a service that makes a 3PL stand out above competitors. Freight payment companies</Text>
-                <Text fontSize="20px">capture comprehensive amounts of data elements from the freight billing invoices and the supporting</Text>
-                <Text fontSize="20px">documentation to establish a report-based database. The shipper can use this data to fine-tune their supply chain</Text>
-                <Text fontSize="20px">operations.</Text>
+                <Text fontSize="20px" color="white">• Validation of the Invoice: Once the invoices from carriers have been received by the 3PL, the freight payment</Text>
+                <Text fontSize="20px" color="white">provider will validate each invoice to ensure that duplicate charges are not appearing on the invoice, are charges</Text>
+                <Text fontSize="20px" color="white">that have been incurred by the shipper, and include all required documentation.</Text>
 
                 <br></br>
 
-                <Text fontSize="20px">• Service & Rate Auditing: When the invoice is being reviewed for errors, the auditing of rates and services will</Text>
-                <Text fontSize="20px">begin. Freight auditing also includes negotiating better rates from the carrier to the shipper. 3PL’s maintain</Text>
-                <Text fontSize="20px">exceptional relationships with multiple carriers, which provides them the expertise and experience to secure base</Text>
-                <Text fontSize="20px">rates or special service rates. While the auditing process is first and foremost a mistake-finding mission, it’s also a</Text>
-                <Text fontSize="20px">great time to optimize service rates between shippers and carriers.</Text>
+                <Text fontSize="20px" color="white">• Capturing Data: This is a service that makes a 3PL stand out above competitors. Freight payment companies</Text>
+                <Text fontSize="20px" color="white">capture comprehensive amounts of data elements from the freight billing invoices and the supporting</Text>
+                <Text fontSize="20px" color="white">documentation to establish a report-based database. The shipper can use this data to fine-tune their supply chain</Text>
+                <Text fontSize="20px" color="white">operations.</Text>
 
                 <br></br>
 
-                <Text fontSize="20px">• Accounting: Before the invoices have been paid, the professional freight invoice provider will utilize accounting</Text>
-                <Text fontSize="20px">methods to correctly document and ledger through correct general ledger codes that are provided by the shipper to</Text>
-                <Text fontSize="20px">keep all charges correctly documented.</Text>
+                <Text fontSize="20px" color="white">• Service & Rate Auditing: When the invoice is being reviewed for errors, the auditing of rates and services will</Text>
+                <Text fontSize="20px" color="white">begin. Freight auditing also includes negotiating better rates from the carrier to the shipper. 3PL’s maintain</Text>
+                <Text fontSize="20px" color="white">exceptional relationships with multiple carriers, which provides them the expertise and experience to secure base</Text>
+                <Text fontSize="20px" color="white">rates or special service rates. While the auditing process is first and foremost a mistake-finding mission, it’s also a</Text>
+                <Text fontSize="20px" color="white">great time to optimize service rates between shippers and carriers.</Text>
 
                 <br></br>
 
-                <Text fontSize="20px">• Exception Management: There are always exceptions to processing invoices in logistics. When an exception</Text>
-                <Text fontSize="20px">occurs, the 3PL will act ethically but swiftly on behalf of their shipper clients to resolve it – with as little hassle as</Text>
-                <Text fontSize="20px">possible.</Text>
+                <Text fontSize="20px" color="white">• Accounting: Before the invoices have been paid, the professional freight invoice provider will utilize accounting</Text>
+                <Text fontSize="20px" color="white">methods to correctly document and ledger through correct general ledger codes that are provided by the shipper to</Text>
+                <Text fontSize="20px" color="white">keep all charges correctly documented.</Text>
 
                 <br></br>
 
-                <Text fontSize="20px">• Payment: When the invoice has been completed audited, documented, and ensured for accuracy, the 3PL will</Text>
-                <Text fontSize="20px">either pay the invoice or submit a final invoice report to the shipper – so they can submit funds to the 3PL to pay the</Text>
-                <Text fontSize="20px">carrier.</Text>
+                <Text fontSize="20px" color="white">• Exception Management: There are always exceptions to processing invoices in logistics. When an exception</Text>
+                <Text fontSize="20px" color="white">occurs, the 3PL will act ethically but swiftly on behalf of their shipper clients to resolve it – with as little hassle as</Text>
+                <Text fontSize="20px" color="white">possible.</Text>
+
+                <br></br>
+
+                <Text fontSize="20px" color="white">• Payment: When the invoice has been completed audited, documented, and ensured for accuracy, the 3PL will</Text>
+                <Text fontSize="20px" color="white">either pay the invoice or submit a final invoice report to the shipper – so they can submit funds to the 3PL to pay the</Text>
+                <Text fontSize="20px" color="white">carrier.</Text>
 
                 <br></br>
 
@@ -131,6 +134,9 @@ function Providers() {
                 />
 
             </Stack>
+
+            <br></br>
+            <br></br>
 
         </Box>
 

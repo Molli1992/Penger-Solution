@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Box } from '@chakra-ui/react';
 
 
 function NavBar(props) {
@@ -8,25 +8,33 @@ function NavBar(props) {
 
     return (
 
-        <div class="container">
+        <Box backgroundColor="black">
 
-            <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <div class="container">
 
-                <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-                    <span class="fs-4">Lumina Crystal</span>
-                </a>
+                <header>
 
-                <ul class="nav nav-pills">
-                    <li class="nav-item"><a href="/" class="nav-link" aria-current="page">Home</a></li>
-                    <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="/services" class="nav-link">Services</a></li>
-                    <li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
-                    <li class="nav-item"><a href="/about-1" class="nav-link">Freight Payment Providers</a></li>
-                </ul>
+                    <br></br>
 
-            </header>
+                    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                        <span class="fs-3">Lumina Crystal</span>
+                    </a>
 
-        </div>
+                    <hr class="border border-danger border-2 opacity-50"></hr>
+
+                    <ul class="nav nav-pills">
+                        <li class="nav-item fs-5"><a href="/" class="nav-link px-2 text-white" aria-current="page">Home</a></li>
+                        <li class="nav-item fs-5"><a href="/about" class="nav-link px-2 text-white">About</a></li>
+                        <li class="nav-item fs-5"><a href="/services" class="nav-link px-2 text-white">Services</a></li>
+                        <li class="nav-item fs-5"><a href="/contact" class="nav-link px-2 text-white">Contact</a></li>
+                        <li class="nav-item fs-5"><a href="/about-1" class="nav-link px-2 text-white">Freight Payment Providers</a></li>
+                    </ul>
+
+                </header>
+
+            </div>
+
+        </Box>
 
     )
 

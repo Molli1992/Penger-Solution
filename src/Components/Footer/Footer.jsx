@@ -1,29 +1,34 @@
 import React from "react";
-
+import { Box } from '@chakra-ui/react';
 
 
 
 
 function Footer() {
+
     return (
 
-        <div class="container">
+        <Box backgroundColor="black">
 
-            <footer class="py-3 my-4">
+            <div class="container">
 
-                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                    <li class="nav-item"><a class="nav-link px-2 text-muted">Lumina Cristal</a></li>
-                    <li class="nav-item"><a class="nav-link px-2 text-muted">Buenos Aires</a></li>
-                    <li class="nav-item"><a class="nav-link px-2 text-muted">Calle: Peru 1324</a></li>
-                    <li class="nav-item"><a class="nav-link px-2 text-muted">luminacristal@gmail.com</a></li>
-                    <li class="nav-item"><a class="nav-link px-2 text-muted">115-579-0006</a></li>
-                </ul>
+                <footer class="py-3">
 
-                <p class="text-center text-muted">&copy; 2022 Company, Inc</p>
+                    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                        <li class="nav-item"><a class="nav-link px-2 text-white">Lumina Cristal</a></li>
+                        <li class="nav-item"><a class="nav-link px-2 text-white">Buenos Aires</a></li>
+                        <li class="nav-item"><a class="nav-link px-2 text-white">Calle: Peru 1324</a></li>
+                        <li class="nav-item"><a class="nav-link px-2 text-white">luminacristal@gmail.com</a></li>
+                        <li class="nav-item"><a class="nav-link px-2 text-white">115-579-0006</a></li>
+                    </ul>
 
-            </footer>
+                    <p class="text-center text-white">&copy; 2022 Company, Inc</p>
 
-        </div>
+                </footer>
+
+            </div>
+
+        </Box>
 
     );
 

@@ -15,7 +15,7 @@ function Contact() {
             <br></br>
             <br></br>
 
-            <Stack alignItems="center" background="gray">
+            <Stack alignItems="center" background="teal">
 
                 <Card
                     direction={{ base: 'column', sm: 'row' }}

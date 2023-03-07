@@ -38,7 +38,8 @@ function NavBar(props) {
 
                 <a href="/" className="action_btn">Home</a>
 
-                <button className="toggle_btn" onClick={onClick}>| | | |</button>
+                <button className="toggle_btn" onClick={onClick}><ion-icon name="reorder-four-outline" size="large">
+                </ion-icon></button>
 
                 <div className="dropdown_menu">
 

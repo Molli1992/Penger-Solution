@@ -10,16 +10,14 @@ function Services() {
 
     return (
 
-        <Box backgroundColor="black">
+        <Box backgroundColor="white">
 
-            <br></br>
             <br></br>
 
             <Stack alignItems="center">
 
-                <Text fontSize='40px' color="white">Professional Services</Text>
-                <br></br>
-                <Text fontSize='25px' color="white">MEETING YOUR NEEDS</Text>
+                <Text fontSize='40px' color="black">Professional Services</Text>
+                <Text fontSize='25px' color="black">MEETING YOUR NEEDS</Text>
 
             </Stack>
 
@@ -69,23 +67,23 @@ function Services() {
                 >
                     <Stack alignItems="center">
 
-                        <Text fontSize='30px' color="white">GPS Fleet Tracking</Text>
+                        <Text fontSize='30px' color="black">GPS Fleet Tracking</Text>
                         <br></br>
-                        <Text fontSize='20px' color="white">Since its founding, Lumina Crystal has been one of the most trusted</Text>
-                        <Text fontSize='20px' color="white">names in the industry. Hire us for this service and learn how we</Text>
-                        <Text fontSize='20px' color="white">cater to the needs of each client, ensuring the results you need and</Text>
-                        <Text fontSize='20px' color="white">deserve.</Text>
+                        <Text fontSize='20px' color="black">Since its founding, Lumina Crystal has been one of the most trusted</Text>
+                        <Text fontSize='20px' color="black">names in the industry. Hire us for this service and learn how we</Text>
+                        <Text fontSize='20px' color="black">cater to the needs of each client, ensuring the results you need and</Text>
+                        <Text fontSize='20px' color="black">deserve.</Text>
 
                     </Stack>
 
                     <Stack alignItems="center">
 
-                        <Text fontSize='30px' color="white">Route Planning</Text>
+                        <Text fontSize='30px' color="black">Route Planning</Text>
                         <br></br>
-                        <Text fontSize='20px' color="white">We have the experience and skills necessary to tackle just about</Text>
-                        <Text fontSize='20px' color="white">every type of job that comes our way. With Lumina Crystal, clients</Text>
-                        <Text fontSize='20px' color="white">know exactly what to expect - professionalism, efficiency and</Text>
-                        <Text fontSize='20px' color="white">exceptional results.</Text>
+                        <Text fontSize='20px' color="black">We have the experience and skills necessary to tackle just about</Text>
+                        <Text fontSize='20px' color="black">every type of job that comes our way. With Lumina Crystal, clients</Text>
+                        <Text fontSize='20px' color="black">know exactly what to expect - professionalism, efficiency and</Text>
+                        <Text fontSize='20px' color="black">exceptional results.</Text>
 
                     </Stack>
 
@@ -93,7 +91,6 @@ function Services() {
 
             </Stack>
 
-            <br></br>
             <br></br>
             <br></br>
 

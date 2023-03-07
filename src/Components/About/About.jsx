@@ -1,5 +1,6 @@
 import React from "react";
-import { Box, Image, Text, Stack, Card, CardBody } from '@chakra-ui/react';
+import { Text, Stack, Box, Image } from '@chakra-ui/react';
+import "./About.css";
 
 
 
@@ -9,63 +10,42 @@ function About() {
 
     return (
 
-        <Box backgroundColor="black">
+        <Box className="box-1-about">
 
-            <br></br>
+            <Stack className="stack-img-about">
 
-            <Stack alignItems="center">
-
-                <Card
-                    direction={{ base: 'column', sm: 'row' }}
-                    overflow='hidden'
-                    variant='outline'
-                    alignItems="center"
-                    gap="30px"
-                >
-                    <Image
-                        alignItems="center"
-                        objectFit='cover'
-                        maxW={{ base: '100%', sm: '200px' }}
-                        src='https://static.wixstatic.com/media/11062b_34328535553e437aa26b0990d038eadd~mv2_d_6272_4182_s_4_2.jpg/v1/fill/w_595,h_700,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_34328535553e437aa26b0990d038eadd~mv2_d_6272_4182_s_4_2.jpg'
-                        alt='Workers'
-                    />
-
-                    <Stack alignItems="center">
-
-                        <CardBody alignItems="center">
-
-                            <Stack alignItems="center">
-
-                                <Text fontSize='40px' color="white">All About Lumina Crystal</Text>
-                                <Text fontSize='25px' color="white">PROFESSIONALISM. EXCELLENCE. TIMELINESS.</Text>
-                                <br></br>
-                                <Text fontSize='20px' color="white">Fast, efficient, and honest, Lumina Crystal has become a reputable</Text>
-                                <Text fontSize='20px' color="white">and well-known Logistics Service. Our team is up for every job,</Text>
-                                <Text fontSize='20px' color="white">managing projects with the skill and experience our clients have</Text>
-                                <Text fontSize='20px' color="white">come to expect. We want our customers to be satisfied with our</Text>
-                                <Text fontSize='20px' color="white">work, which is why we provide open communication channels</Text>
-                                <Text fontSize='20px' color="white">throughout the duration of each project.</Text>
-                                <br></br>
-                                <br></br>
-                                <br></br>
-                                <button type="button" class="btn btn-outline-primary">Get in Touch</button>
-
-                            </Stack>
-
-                        </CardBody>
-
-                    </Stack>
-
-                </Card>
+                <Image
+                    className="img-about"
+                    src='https://www.beetrack.com/hs-fs/hubfs/transporte%20logistico%20pdf.jpg?width=724&name=transporte%20logistico%20pdf.jpg'
+                    alt='Workers'
+                />
 
             </Stack>
 
-            <br></br>
 
-        </Box>
+            <Stack className="stack-text-about">
+
+                <Text className="first-text">All About Lumina Crystal</Text>
+                <br></br>
+                <Text className="second-text">PROFESSIONALISM. EXCELLENCE. TIMELINESS.</Text>
+                <br></br>
+                <Text className="third-text">Fast, efficient, and honest, Lumina Crystal has become a reputable</Text>
+                <Text className="third-text">and well-known Logistics Service. Our team is up for every job,</Text>
+                <Text className="third-text">managing projects with the skill and experience our clients have</Text>
+                <Text className="third-text">come to expect. We want our customers to be satisfied with our</Text>
+                <Text className="third-text">work, which is why we provide open communication channels</Text>
+                <Text className="third-text">throughout the duration of each project.</Text>
+
+            </Stack>
+
+        </Box >
 
     );
 
 };
 
 export default About;
+
+/*
+
+*/

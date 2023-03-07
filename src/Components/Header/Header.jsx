@@ -1,40 +1,58 @@
 import React from "react";
-import { Box } from '@chakra-ui/react';
+import "./Header.css";
+
 
 
 function NavBar(props) {
+
+    const onClick = (e) => {
+
+        const DropDownMenu = document.querySelector(".dropdown_menu");
+
+        DropDownMenu.classList.toggle("open")
+
+        const isOpen = DropDownMenu.classList.contains("open")
+
+    };
 
 
 
     return (
 
-        <Box backgroundColor="black">
+        <header>
 
-            <div class="container">
+            <br></br>
 
-                <header>
+            <div className="navbar">
 
-                    <br></br>
+                <div className="logo"><a href="/">Lumina Crystal</a></div>
 
-                    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-                        <span class="fs-3">Lumina Crystal</span>
-                    </a>
+                <ul className="links">
 
-                    <hr class="border border-danger border-2 opacity-50"></hr>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/services">Services</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/about-1">Freight Payment Providers</a></li>
 
-                    <ul class="nav nav-pills">
-                        <li class="nav-item fs-5"><a href="/" class="nav-link px-2 text-white" aria-current="page">Home</a></li>
-                        <li class="nav-item fs-5"><a href="/about" class="nav-link px-2 text-white">About</a></li>
-                        <li class="nav-item fs-5"><a href="/services" class="nav-link px-2 text-white">Services</a></li>
-                        <li class="nav-item fs-5"><a href="/contact" class="nav-link px-2 text-white">Contact</a></li>
-                        <li class="nav-item fs-5"><a href="/about-1" class="nav-link px-2 text-white">Freight Payment Providers</a></li>
-                    </ul>
+                </ul>
 
-                </header>
+                <a href="/" className="action_btn">Home</a>
+
+                <button className="toggle_btn" onClick={onClick}>| | | |</button>
+
+                <div className="dropdown_menu">
+
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/services">Services</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/about-1">Freight Payment</a></li>
+                    <li><a href="/" className="action_btn_responsive">Home</a></li>
+
+                </div>
 
             </div>
 
-        </Box>
+        </header>
 
     )
 

@@ -8,21 +8,35 @@ function Footer() {
 
     return (
 
-        <Box backgroundColor="black">
+        <Box backgroundColor="white">
 
             <div class="container">
 
-                <footer class="py-3">
+                <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
 
-                    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                        <li class="nav-item"><a class="nav-link px-2 text-white">Lumina Cristal</a></li>
-                        <li class="nav-item"><a class="nav-link px-2 text-white">Buenos Aires</a></li>
-                        <li class="nav-item"><a class="nav-link px-2 text-white">Calle: Peru 1324</a></li>
-                        <li class="nav-item"><a class="nav-link px-2 text-white">luminacristal@gmail.com</a></li>
-                        <li class="nav-item"><a class="nav-link px-2 text-white">115-579-0006</a></li>
+                    <div class="col-md-4 d-flex align-items-center">
+                        <a href="#" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                            <ion-icon name="logo-github" size="large"></ion-icon>
+                        </a>
+                        <span class="mb-3 mb-md-0 text-muted">&copy; 2022 Company, Inc</span>
+                    </div>
+
+                    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+
+                        <li class="ms-3"><a class="text-muted" href="#">
+                            <ion-icon name="logo-facebook" size="large"></ion-icon>
+                        </a>
+                        </li>
+
+                        <li class="ms-3"><a class="text-muted" href="#">
+                            <ion-icon name="logo-google" size="large"></ion-icon>
+                        </a></li>
+
+                        <li class="ms-3"><a class="text-muted" href="#">
+                            <ion-icon name="logo-whatsapp" size="large"></ion-icon>
+                        </a></li>
+
                     </ul>
-
-                    <p class="text-center text-white">&copy; 2022 Company, Inc</p>
 
                 </footer>
 

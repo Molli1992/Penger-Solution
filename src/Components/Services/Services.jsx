@@ -1,100 +1,84 @@
 import React from "react";
-import { Box, Image, Text, Stack, Card, CardBody } from '@chakra-ui/react';
+import {
+    Box, Image, Text, Stack, Card, CardBody,
+    Heading, Divider, CardFooter, ButtonGroup, Button
+} from '@chakra-ui/react';
+import "./Services.css";
 
 
 
 
 function Services() {
 
+    const breakpoints = ['0em', '30em', '48em', '62em', '80em', '96em'];
 
 
     return (
 
-        <Box backgroundColor="white">
+        <div>
 
-            <br></br>
+            <Stack id="responsive-stack-text-services" className="stack-text-services">
 
-            <Stack alignItems="center">
-
-                <Text fontSize='40px' color="black">Professional Services</Text>
-                <Text fontSize='25px' color="black">MEETING YOUR NEEDS</Text>
+                <Text id="responsive-first-text" className="first-text">PROFESSIONAL SERVICES</Text>
+                <Text id="responsive-first-text" className="first-text" >Meeting Your Needs</Text>
 
             </Stack>
 
-            <br></br>
-            <br></br>
+            <Box id="responsive-box-1-services" className="box-1-services">
 
-            <Stack alignItems="center">
-
-                <Card
-                    direction={{ base: 'column', sm: 'row' }}
-                    overflow='hidden'
-                    variant='outline'
-                    alignItems="center"
-                    gap="30px"
-                >
-                    <Image
-                        alignItems="center"
-                        objectFit='cover'
-                        maxW={{ base: '100%', sm: '200px' }}
-                        src='https://static.wixstatic.com/media/aa61bc8f07db422f9f56abf2a673d9f7.jpg/v1/fill/w_575,h_400,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/aa61bc8f07db422f9f56abf2a673d9f7.jpg'
-                        alt='Workers'
-                    />
+                <Stack id="responsive-stack-img-services" className="stack-img-services">
 
                     <Image
-                        alignItems="center"
-                        objectFit='cover'
-                        maxW={{ base: '100%', sm: '200px' }}
-                        src='https://static.wixstatic.com/media/6cbf5621bc1a4e96a5339968ad1f88fc.jpg/v1/fill/w_575,h_400,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/6cbf5621bc1a4e96a5339968ad1f88fc.jpg'
-                        alt='Workers'
+                        id="responsive-img-services"
+                        className="img-services"
+                        src='https://assets.verizonconnect.com/cdn-cgi/image/width=1900,height=540,format=auto/solutions/uk-fleet/us-desktop-fleet-tracking-banner.jpg'
+                        alt='GPS'
                     />
 
-                </Card>
+                </Stack>
 
-            </Stack>
+                <Stack id="responsive-stack-text-services" className="stack-text-services">
 
-            <br></br>
-            <br></br>
+                    <Text id="responsive-first-text" className="first-text">GPS Fleet Tracking</Text>
+                    <Text id="responsive-third-text" className="third-text">
+                        Since its founding, Lumina Crystal has been one of the most trusted
+                        names in the industry. Hire us for this service and learn how we
+                        cater to the needs of each client, ensuring the results you need and
+                        deserve.
+                    </Text>
 
-            <Stack alignItems="center">
+                </Stack>
 
-                <Card
-                    direction={{ base: 'column', sm: 'row' }}
-                    overflow='hidden'
-                    variant='outline'
-                    alignItems="center"
-                    gap="30px"
-                >
-                    <Stack alignItems="center">
+            </Box >
 
-                        <Text fontSize='30px' color="black">GPS Fleet Tracking</Text>
-                        <br></br>
-                        <Text fontSize='20px' color="black">Since its founding, Lumina Crystal has been one of the most trusted</Text>
-                        <Text fontSize='20px' color="black">names in the industry. Hire us for this service and learn how we</Text>
-                        <Text fontSize='20px' color="black">cater to the needs of each client, ensuring the results you need and</Text>
-                        <Text fontSize='20px' color="black">deserve.</Text>
+            <Box id="responsive-box-1-services" className="box-1-services">
 
-                    </Stack>
+                <Stack id="responsive-stack-text-services" className="stack-text-services">
 
-                    <Stack alignItems="center">
+                    <Text id="responsive-first-text" className="first-text">Route Planning</Text>
+                    <Text id="responsive-third-text" className="third-text">
+                        We have the experience and skills necessary to tackle just about
+                        every type of job that comes our way. With Lumina Crystal, clients
+                        know exactly what to expect - professionalism, efficiency and
+                        exceptional results.
+                    </Text>
 
-                        <Text fontSize='30px' color="black">Route Planning</Text>
-                        <br></br>
-                        <Text fontSize='20px' color="black">We have the experience and skills necessary to tackle just about</Text>
-                        <Text fontSize='20px' color="black">every type of job that comes our way. With Lumina Crystal, clients</Text>
-                        <Text fontSize='20px' color="black">know exactly what to expect - professionalism, efficiency and</Text>
-                        <Text fontSize='20px' color="black">exceptional results.</Text>
+                </Stack>
 
-                    </Stack>
+                <Stack id="responsive-stack-img-services" className="stack-img-services">
 
-                </Card>
+                    <Image
+                        id="responsive-img-services"
+                        className="img-services"
+                        src='https://s1.static.brasilescola.uol.com.br/be/conteudo/images/a-cartografia-representa-espaco-auxilia-sua-compreensao-5626a9ab82125.jpg'
+                        alt='MAP'
+                    />
 
-            </Stack>
+                </Stack>
 
-            <br></br>
-            <br></br>
+            </Box >
 
-        </Box>
+        </div>
 
     );
 

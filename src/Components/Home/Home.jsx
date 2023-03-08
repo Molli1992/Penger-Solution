@@ -15,17 +15,6 @@ function Home() {
             <br></br>
 
             <Stack alignItems="center">
-                <Image
-                    width="1100px"
-                    src='https://static.wixstatic.com/media/fdc8a1b7183a4e4591de19b31b0c02a1.jpg/v1/fill/w_940,h_440,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Cargo%20Shipping%20Containers.jpg'
-                    alt='Containers'
-                />
-
-            </Stack>
-
-            <br></br>
-
-            <Stack alignItems="center">
                 <Text fontSize='60px' color="black">Welcome to Lumina Crystal</Text>
                 <Text fontSize='40px' color="black">ALWAYS AT YOUR SERVICE</Text>
                 <br></br>
@@ -33,48 +22,43 @@ function Home() {
             </Stack>
 
             <br></br>
+
+            <Stack alignItems="center">
+                <Image
+                    height="600"
+                    width="1200px"
+                    src='https://static.dw.com/image/53823423_605.jpg'
+                    alt='Containers'
+                />
+            </Stack>
+
+            <br></br>
             <br></br>
 
             <Stack alignItems="center">
 
-                <Card
-                    direction={{ base: 'column', sm: 'row' }}
-                    overflow='hidden'
-                    variant='outline'
-                    alignItems="center"
-                    gap="30px"
-                >
+                <Stack alignItems="center">
+                    <Text fontSize='40px' color="black">About Lumina Crystal</Text>
+                    <Text fontSize='25px' color="black">HONEST & EFFICIENT WORK</Text>
+                    <br></br>
+                    <Text fontSize='20px' color="black">Our mission at Lumina Crystal is simple: to provide high-quality</Text>
+                    <Text fontSize='20px' color="black">services for our valued clients. Our team goes above and beyond to</Text>
+                    <Text fontSize='20px' color="black">cater to each project’s specific needs. Through open</Text>
+                    <Text fontSize='20px' color="black">communication and exceptional service, we hope you’ll find what</Text>
+                    <Text fontSize='20px' color="black">you’re looking for with our Logistics Service. For more information or</Text>
+                    <Text fontSize='20px' color="black">general inquiries, get in touch today.</Text>
+                </Stack>
+
+                <br></br>
+
+                <Stack alignItems="center">
                     <Image
-                        alignItems="center"
-                        objectFit='cover'
-                        maxW={{ base: '100%', sm: '200px' }}
-                        src='https://static.wixstatic.com/media/11062b_b11682b6f62c4ff4b163510814dae600~mv2_d_3991_2661_s_4_2.jpg/v1/fill/w_595,h_620,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_b11682b6f62c4ff4b163510814dae600~mv2_d_3991_2661_s_4_2.jpg'
+                        height="600"
+                        width="1200px"
+                        src='https://media.istockphoto.com/photos/business-logistics-and-transportation-concept-of-containers-cargo-picture-id1273907220?s=2048x2048'
                         alt='Ship'
                     />
-
-                    <Stack alignItems="center">
-
-                        <CardBody alignItems="center">
-
-                            <Stack alignItems="center">
-
-                                <Text fontSize='40px' color="black">About Lumina Crystal</Text>
-                                <Text fontSize='25px' color="black">HONEST & EFFICIENT WORK</Text>
-                                <br></br>
-                                <Text fontSize='20px' color="black">Our mission at Lumina Crystal is simple: to provide high-quality</Text>
-                                <Text fontSize='20px' color="black">services for our valued clients. Our team goes above and beyond to</Text>
-                                <Text fontSize='20px' color="black">cater to each project’s specific needs. Through open</Text>
-                                <Text fontSize='20px' color="black">communication and exceptional service, we hope you’ll find what</Text>
-                                <Text fontSize='20px' color="black">you’re looking for with our Logistics Service. For more information or</Text>
-                                <Text fontSize='20px' color="black">general inquiries, get in touch today.</Text>
-
-                            </Stack>
-
-                        </CardBody>
-
-                    </Stack>
-
-                </Card>
+                </Stack>
 
             </Stack>
 
@@ -102,10 +86,9 @@ function Home() {
                     gap="30px"
                 >
                     <Image
-                        alignItems="center"
-                        objectFit='cover'
-                        maxW={{ base: '100%', sm: '200px' }}
-                        src='https://static.wixstatic.com/media/nsplsh_002d9a5110a1434982632801d969a414~mv2.jpg/v1/fill/w_899,h_500,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/nsplsh_002d9a5110a1434982632801d969a414~mv2.jpg'
+                        height="400"
+                        width="800px"
+                        src='https://media.ambito.com/p/1689e60e024601bde779f60f9d041ebe/adjuntos/239/imagenes/040/076/0040076901/1200x675/smart/aduanasjpg.jpg'
                         alt='Conteiner'
                     />
 
@@ -156,7 +139,7 @@ function Home() {
 
                             <Stack alignItems="center">
 
-                                <Text fontSize='35px' color="black">STRATEGIC GLOBAL SOURCING</Text>
+                                <Text fontSize='40px' color="black">STRATEGIC GLOBAL SOURCING</Text>
                                 <br></br>
                                 <Text fontSize='20px' color="black">Conquer Trader works with clients to</Text>
                                 <Text fontSize='20px' color="black">enhance their competitive advantage by</Text>
@@ -170,10 +153,9 @@ function Home() {
                     </Stack>
 
                     <Image
-                        alignItems="center"
-                        objectFit='cover'
-                        maxW={{ base: '100%', sm: '200px' }}
-                        src='https://static.wixstatic.com/media/nsplsh_de8595204a6c401ba6b914870948401b~mv2.jpg/v1/fill/w_899,h_500,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/nsplsh_de8595204a6c401ba6b914870948401b~mv2.jpg'
+                        height="400"
+                        width="800px"
+                        src='https://previews.123rf.com/images/tomas1111/tomas11111704/tomas1111170400099/77384954-camiones-transporte-transporte-de-carga-transporte-mar%C3%ADtimo.jpg'
                         alt='Ship'
                     />
 
@@ -183,8 +165,9 @@ function Home() {
 
             <br></br>
             <br></br>
+            <br></br>
 
-            <Box padding="0 80px">
+            <Box padding="0 190px">
 
                 <Stack alignItems="center" background="teal">
 
@@ -204,15 +187,14 @@ function Home() {
 
                                     <Text fontSize='40px' color="black">Get in Touch</Text>
                                     <br></br>
-                                    <Text fontSize='20px' color="black">Questions, comments or requests? Feel free to reach out, we’d love</Text>
+                                    <Text fontSize='20px' color="black">Questions, comments or requests?</Text>
+                                    <Text fontSize='20px' color="black"> Feel free to reach out, we’d love</Text>
                                     <Text fontSize='20px' color="black">to hear from you. </Text>
                                     <Text fontSize='20px' color="black">James Cartier, Business Relationship Manager</Text>
-                                    <br></br>
                                     <br></br>
                                     <Text fontSize='20px' color="black">7901 4th St N</Text>
                                     <Text fontSize='20px' color="black">STE 5368</Text>
                                     <Text fontSize='20px' color="black">St. Petersburg, FL 33702</Text>
-                                    <br></br>
                                     <br></br>
                                     <Text fontSize='20px' color="black">info@luminacrystal.net</Text>
 
@@ -223,10 +205,9 @@ function Home() {
                         </Stack>
 
                         <Image
-                            alignItems="center"
-                            objectFit='cover'
-                            maxW={{ base: '100%', sm: '200px' }}
-                            src='https://static.wixstatic.com/media/11062b_072eab0b69e54b779cd6e2e7ead60019~mv2_d_5977_3985_s_4_2.jpg/v1/fill/w_595,h_560,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_072eab0b69e54b779cd6e2e7ead60019~mv2_d_5977_3985_s_4_2.jpg'
+                            height="500"
+                            width="600px"
+                            src='http://www.wirsolut.com/images/contacto/imagen-contacto-wirsolut.png'
                             alt='Containers'
                         />
 

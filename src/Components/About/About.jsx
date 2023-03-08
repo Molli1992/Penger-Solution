@@ -10,11 +10,12 @@ function About() {
 
     return (
 
-        <Box className="box-1-about">
+        <Box id="responsive-box-1-about" className="box-1-about">
 
-            <Stack className="stack-img-about">
+            <Stack id="responsive-stack-img-about" className="stack-img-about">
 
                 <Image
+                    id="responsive-img-about"
                     className="img-about"
                     src='https://www.beetrack.com/hs-fs/hubfs/transporte%20logistico%20pdf.jpg?width=724&name=transporte%20logistico%20pdf.jpg'
                     alt='Workers'
@@ -23,18 +24,19 @@ function About() {
             </Stack>
 
 
-            <Stack className="stack-text-about">
+            <Stack id="responsive-stack-text-about" className="stack-text-about">
 
-                <Text className="first-text">All About Lumina Crystal</Text>
+                <Text id="responsive-first-text" className="first-text">All About Lumina Crystal</Text>
+                <Text id="responsive-second-text" className="second-text">PROFESSIONALISM. EXCELLENCE. TIMELINESS.</Text>
                 <br></br>
-                <Text className="second-text">PROFESSIONALISM. EXCELLENCE. TIMELINESS.</Text>
-                <br></br>
-                <Text className="third-text">Fast, efficient, and honest, Lumina Crystal has become a reputable</Text>
-                <Text className="third-text">and well-known Logistics Service. Our team is up for every job,</Text>
-                <Text className="third-text">managing projects with the skill and experience our clients have</Text>
-                <Text className="third-text">come to expect. We want our customers to be satisfied with our</Text>
-                <Text className="third-text">work, which is why we provide open communication channels</Text>
-                <Text className="third-text">throughout the duration of each project.</Text>
+                <Text id="responsive-third-text" className="third-text">
+                    Fast, efficient, and honest, Lumina Crystal has become a reputable
+                    and well-known Logistics Service. Our team is up for every job,
+                    managing projects with the skill and experience our clients have
+                    come to expect. We want our customers to be satisfied with our
+                    work, which is why we provide open communication channels
+                    throughout the duration of each project.
+                </Text>
 
             </Stack>
 

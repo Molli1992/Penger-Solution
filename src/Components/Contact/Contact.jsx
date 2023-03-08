@@ -11,11 +11,12 @@ function Contact() {
 
     return (
 
-        <Box className="box-1">
+        <Box id="responsive-box" className="box-1">
 
-            <Stack className="stack-img">
+            <Stack id="responsive-stack-img" className="stack-img">
 
                 <Image
+                    id="responsive-img"
                     className="img"
                     src='http://www.wirsolut.com/images/contacto/imagen-contacto-wirsolut.png'
                     alt='Workers'
@@ -23,18 +24,20 @@ function Contact() {
 
             </Stack>
 
-            <Stack className="stack-text">
+            <Stack id="responsive-stack-text" className="stack-text">
 
-                <Text className="first-text">Get in Touch</Text>
-                <Text className="second-text">7901 4th St N</Text>
-                <Text className="second-text">STE 5368</Text>
-                <Text className="second-text">St. Petersburg, FL 33702</Text>
-                <Text className="second-text">info@luminacrystal.net</Text>
-                <Text className="second-text">(786) 790-9763</Text>
+                <Text id="responsive-first-text" className="first-text">Get in Touch</Text>
+                <Text id="responsive-second-text" className="second-text">7901 4th St N</Text>
+                <Text id="responsive-second-text" className="second-text">STE 5368</Text>
+                <Text id="responsive-second-text" className="second-text">St. Petersburg, FL 33702</Text>
+                <Text id="responsive-second-text" className="second-text">info@luminacrystal.net</Text>
+                <Text id="responsive-second-text" className="second-text">(786) 790-9763</Text>
                 <br></br>
                 <br></br>
 
             </Stack>
+
+            <br></br>
 
         </Box >
 

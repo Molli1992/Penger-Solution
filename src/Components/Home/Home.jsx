@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Image, Text, Stack, Card, CardBody } from '@chakra-ui/react';
-
+import "./Home.css";
 
 
 
@@ -9,218 +9,158 @@ function Home() {
 
     return (
 
-        <Box backgroundColor="white">
+        <div>
 
-            <br></br>
-            <br></br>
+            <Box backgroundColor="white">
 
-            <Stack alignItems="center">
-                <Text fontSize='60px' color="black">Welcome to Lumina Crystal</Text>
-                <Text fontSize='40px' color="black">ALWAYS AT YOUR SERVICE</Text>
-                <br></br>
-                <Text fontSize='25px' color="black">Fair prices, superior quality and exceptional customer service are guaranteed when you work with us.</Text>
-            </Stack>
+                <Stack alignItems="center" padding="30px">
 
-            <br></br>
+                    <Text id="responsive-first-text" className="first-text">Welcome to Lumina Crystal</Text>
+                    <Text id="responsive-second-text" className="second-text">ALWAYS AT YOUR SERVICE</Text>
+                    <Text id="responsive-third-text" className="third-text">Fair prices, superior quality and exceptional customer service are guaranteed when you work with us.</Text>
 
-            <Stack alignItems="center">
-                <Image
-                    height="600"
-                    width="1200px"
-                    src='https://static.dw.com/image/53823423_605.jpg'
-                    alt='Containers'
-                />
-            </Stack>
-
-            <br></br>
-            <br></br>
-
-            <Stack alignItems="center">
-
-                <Stack alignItems="center">
-                    <Text fontSize='40px' color="black">About Lumina Crystal</Text>
-                    <Text fontSize='25px' color="black">HONEST & EFFICIENT WORK</Text>
-                    <br></br>
-                    <Text fontSize='20px' color="black">Our mission at Lumina Crystal is simple: to provide high-quality</Text>
-                    <Text fontSize='20px' color="black">services for our valued clients. Our team goes above and beyond to</Text>
-                    <Text fontSize='20px' color="black">cater to each project’s specific needs. Through open</Text>
-                    <Text fontSize='20px' color="black">communication and exceptional service, we hope you’ll find what</Text>
-                    <Text fontSize='20px' color="black">you’re looking for with our Logistics Service. For more information or</Text>
-                    <Text fontSize='20px' color="black">general inquiries, get in touch today.</Text>
                 </Stack>
 
                 <br></br>
 
                 <Stack alignItems="center">
+
                     <Image
-                        height="600"
-                        width="1200px"
+                        id="responsive-img-home"
+                        className="img-home"
+                        src='https://static.dw.com/image/53823423_605.jpg'
+                        alt='Containers'
+                    />
+
+                </Stack>
+
+                <br></br>
+
+                <Stack alignItems="center" padding="30px">
+
+                    <Text id="responsive-first-text" className="first-text">About Lumina Crystal</Text>
+                    <Text id="responsive-second-text" className="second-text">HONEST & EFFICIENT WORK</Text>
+                    <Text id="responsive-third-text" className="third-text">
+                        Our mission at Lumina Crystal is simple: to provide high-quality
+                        services for our valued clients. Our team goes above and beyond to
+                        cater to each project’s specific needs. Through open
+                        communication and exceptional service, we hope you’ll find what
+                        you’re looking for with our Logistics Service. For more information or
+                        general inquiries, get in touch today.
+                    </Text>
+
+                </Stack>
+
+                <br></br>
+
+                <Stack alignItems="center">
+
+                    <Image
+                        id="responsive-img-home"
+                        className="img-home"
                         src='https://media.istockphoto.com/photos/business-logistics-and-transportation-concept-of-containers-cargo-picture-id1273907220?s=2048x2048'
                         alt='Ship'
                     />
+
                 </Stack>
 
-            </Stack>
+                <Stack id="responsive-stack-text-services" className="stack-text-services">
 
-            <br></br>
-            <br></br>
-
-            <Stack alignItems="center">
-
-                <Text fontSize='40px' color="black">Our Services</Text>
-                <Text fontSize='25px' color="black">WHAT WE PROVIDE</Text>
-
-            </Stack>
-
-            <br></br>
-            <br></br>
-            <br></br>
-
-            <Stack alignItems="center">
-
-                <Card
-                    direction={{ base: 'column', sm: 'row' }}
-                    overflow='hidden'
-                    variant='outline'
-                    alignItems="center"
-                    gap="30px"
-                >
-                    <Image
-                        height="400"
-                        width="800px"
-                        src='https://media.ambito.com/p/1689e60e024601bde779f60f9d041ebe/adjuntos/239/imagenes/040/076/0040076901/1200x675/smart/aduanasjpg.jpg'
-                        alt='Conteiner'
-                    />
-
-                    <Stack alignItems="center">
-
-                        <CardBody alignItems="center">
-
-                            <Stack alignItems="center">
-
-                                <Text fontSize='40px' color="black">INTERNATIONAL ADVISORY</Text>
-                                <br></br>
-                                <Text fontSize='20px' color="black">We offer differentiated solutions in the</Text>
-                                <Text fontSize='20px' color="black">search of products, partners, and new</Text>
-                                <Text fontSize='20px' color="black">markets. We develop an in-depth market</Text>
-                                <Text fontSize='20px' color="black">research using the SWOT analysis tool to</Text>
-                                <Text fontSize='20px' color="black">fulfill each client needs and facilitate the</Text>
-                                <Text fontSize='20px' color="black">success of products in international</Text>
-                                <Text fontSize='20px' color="black">markets.</Text>
-
-                            </Stack>
-
-                        </CardBody>
-
-                    </Stack>
-
-                </Card>
-
-            </Stack>
-
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-
-            <Stack alignItems="center">
-
-                <Card
-                    direction={{ base: 'column', sm: 'row' }}
-                    overflow='hidden'
-                    variant='outline'
-                    alignItems="center"
-                    gap="30px"
-                >
-
-                    <Stack alignItems="center">
-
-                        <CardBody alignItems="center">
-
-                            <Stack alignItems="center">
-
-                                <Text fontSize='40px' color="black">STRATEGIC GLOBAL SOURCING</Text>
-                                <br></br>
-                                <Text fontSize='20px' color="black">Conquer Trader works with clients to</Text>
-                                <Text fontSize='20px' color="black">enhance their competitive advantage by</Text>
-                                <Text fontSize='20px' color="black">locating partners/buyers in various countries</Text>
-                                <Text fontSize='20px' color="black">to sell products and services in new markets</Text>
-
-                            </Stack>
-
-                        </CardBody>
-
-                    </Stack>
-
-                    <Image
-                        height="400"
-                        width="800px"
-                        src='https://previews.123rf.com/images/tomas1111/tomas11111704/tomas1111170400099/77384954-camiones-transporte-transporte-de-carga-transporte-mar%C3%ADtimo.jpg'
-                        alt='Ship'
-                    />
-
-                </Card>
-
-            </Stack>
-
-            <br></br>
-            <br></br>
-            <br></br>
-
-            <Box padding="0 190px">
-
-                <Stack alignItems="center" background="teal">
-
-                    <Card
-                        direction={{ base: 'column', sm: 'row' }}
-                        overflow='hidden'
-                        variant='outline'
-                        alignItems="center"
-                        gap="30px"
-                    >
-
-                        <Stack alignItems="center">
-
-                            <CardBody alignItems="center">
-
-                                <Stack alignItems="center">
-
-                                    <Text fontSize='40px' color="black">Get in Touch</Text>
-                                    <br></br>
-                                    <Text fontSize='20px' color="black">Questions, comments or requests?</Text>
-                                    <Text fontSize='20px' color="black"> Feel free to reach out, we’d love</Text>
-                                    <Text fontSize='20px' color="black">to hear from you. </Text>
-                                    <Text fontSize='20px' color="black">James Cartier, Business Relationship Manager</Text>
-                                    <br></br>
-                                    <Text fontSize='20px' color="black">7901 4th St N</Text>
-                                    <Text fontSize='20px' color="black">STE 5368</Text>
-                                    <Text fontSize='20px' color="black">St. Petersburg, FL 33702</Text>
-                                    <br></br>
-                                    <Text fontSize='20px' color="black">info@luminacrystal.net</Text>
-
-                                </Stack>
-
-                            </CardBody>
-
-                        </Stack>
-
-                        <Image
-                            height="500"
-                            width="600px"
-                            src='http://www.wirsolut.com/images/contacto/imagen-contacto-wirsolut.png'
-                            alt='Containers'
-                        />
-
-                    </Card>
+                    <Text id="responsive-first-text" className="first-text">Our Services</Text>
+                    <Text id="responsive-second-text" className="second-text" >WHAT WE PROVIDE</Text>
 
                 </Stack>
 
             </Box>
 
-            <br></br>
-            <br></br>
+            <Box id="responsive-box-1-services" className="box-1-services">
 
-        </Box>
+                <Stack id="responsive-stack-img-services" className="stack-img-services">
+
+                    <Image
+                        id="responsive-img-services"
+                        className="img-services"
+                        src='https://media.ambito.com/p/1689e60e024601bde779f60f9d041ebe/adjuntos/239/imagenes/040/076/0040076901/1200x675/smart/aduanasjpg.jpg'
+                        alt='Conteiner'
+                    />
+
+                </Stack>
+
+                <Stack id="responsive-stack-text-services" className="stack-text-services">
+
+                    <Text id="responsive-first-text" className="first-text">INTERNATIONAL ADVISORY</Text>
+                    <Text id="responsive-third-text" className="third-text">
+                        We offer differentiated solutions in the
+                        search of products, partners, and new
+                        markets. We develop an in-depth market
+                        research using the SWOT analysis tool to
+                        fulfill each client needs and facilitate the
+                        success of products in international
+                        markets.
+                    </Text>
+
+                </Stack>
+
+            </Box >
+
+            <Box id="responsive-box-1-services" className="box-1-services">
+
+                <Stack id="responsive-stack-text-services" className="stack-text-services">
+
+                    <Text id="responsive-first-text" className="first-text">STRATEGIC GLOBAL SOURCING</Text>
+                    <Text id="responsive-third-text" className="third-text">
+                        Conquer Trader works with clients to
+                        enhance their competitive advantage by
+                        locating partners/buyers in various countries
+                        to sell products and services in new markets
+                    </Text>
+
+                </Stack>
+
+                <Stack id="responsive-stack-img-services" className="stack-img-services">
+
+                    <Image
+                        id="responsive-img-services"
+                        className="img-services"
+                        src='https://previews.123rf.com/images/tomas1111/tomas11111704/tomas1111170400099/77384954-camiones-transporte-transporte-de-carga-transporte-mar%C3%ADtimo.jpg'
+                        alt='Ship'
+                    />
+
+                </Stack>
+
+            </Box >
+
+            <Box id="responsive-box" className="box-1">
+
+                <Stack id="responsive-stack-img" className="stack-img">
+
+                    <Image
+                        id="responsive-img"
+                        className="img"
+                        src='http://www.wirsolut.com/images/contacto/imagen-contacto-wirsolut.png'
+                        alt='Workers'
+                    />
+
+                </Stack>
+
+                <Stack id="responsive-stack-text" className="stack-text">
+
+                    <Text id="responsive-first-text" className="first-text">Get in Touch</Text>
+                    <Text id="responsive-second-text" className="second-text">7901 4th St N</Text>
+                    <Text id="responsive-second-text" className="second-text">STE 5368</Text>
+                    <Text id="responsive-second-text" className="second-text">St. Petersburg, FL 33702</Text>
+                    <Text id="responsive-second-text" className="second-text">info@luminacrystal.net</Text>
+                    <Text id="responsive-second-text" className="second-text">(786) 790-9763</Text>
+                    <br></br>
+                    <br></br>
+
+                </Stack>
+
+                <br></br>
+
+            </Box >
+
+        </div>
 
     );
 

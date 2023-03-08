@@ -13,6 +13,7 @@
 }
 
 .stack-text-services {
+    text-align: center;
     align-items: center;
     padding: 30px;
 }
@@ -60,6 +61,7 @@
     }
 
     #responsive-stack-text-services {
+        text-align: center;
         align-items: center;
         padding: 30px;
     }
@@ -109,6 +111,7 @@
     }
 
     #responsive-stack-text-services {
+        text-align: center;
         align-items: center;
         padding: 30px;
     }
@@ -158,6 +161,7 @@
     }
 
     #responsive-stack-text-services {
+        text-align: center;
         align-items: center;
         padding: 30px;
     }

@@ -15,7 +15,7 @@ function Home() {
 
             <Box backgroundColor="white">
 
-                <Stack alignItems="center" padding="30px">
+                <Stack alignItems="center" padding="30px" className="stack-home-text">
 
                     <Text id="responsive-first-text" className="first-text">Welcome to Lumina Crystal</Text>
                     <Text id="responsive-second-text" className="second-text">ALWAYS AT YOUR SERVICE</Text>
@@ -38,7 +38,7 @@ function Home() {
 
                 <br></br>
 
-                <Stack alignItems="center" padding="30px">
+                <Stack alignItems="center" padding="30px" className="stack-home-text">
 
                     <Text id="responsive-first-text" className="first-text">About Lumina Crystal</Text>
                     <Text id="responsive-second-text" className="second-text">HONEST & EFFICIENT WORK</Text>

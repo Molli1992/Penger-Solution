@@ -18,11 +18,11 @@
     width: 1200px;
 }
 
-@media(max-width: 1050px) {
+.stack-home-text {
+    text-align: center;
+}
 
-    .box-1-services {
-        display: none;
-    }
+@media(max-width: 1050px) {
 
     /*---------------------------------------------------------------------*/
 

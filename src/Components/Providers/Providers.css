@@ -18,6 +18,10 @@
     width: 800px;
 }
 
+.stack-text-providers {
+    text-align: center;
+}
+
 @media(max-width: 1050px) {
 
     .box-1-services {

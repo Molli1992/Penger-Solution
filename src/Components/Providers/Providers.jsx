@@ -69,7 +69,7 @@ function Providers() {
 
             <br></br>
 
-            <Stack alignItems="center" padding="15px">
+            <Stack alignItems="center" padding="15px" className='stack-text-providers'>
 
                 <Text id="responsive-first-text" className="first-text">About</Text>
                 <Text id="responsive-second-text" className="second-text">Freight Payment Providers</Text>

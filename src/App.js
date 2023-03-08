@@ -6,6 +6,7 @@ import About from "./Components/About/About";
 import Services from "./Components/Services/Services";
 import Contact from "./Components/Contact/Contact";
 import Providers from "./Components/Providers/Providers";
+import "./App.css";
 
 
 
@@ -16,7 +17,7 @@ function App() {
 
       <Header />
 
-      <div>
+      <div className="App">
         <Routes>
 
           <Route exact path="/" element={<Home />} />

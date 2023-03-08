@@ -2,9 +2,8 @@
     display: flex;
     background-color: rgba(238, 226, 226, 0.555);
     align-items: center;
-    height: 400px;
-    width: 800px;
-    margin: 0px auto
+    margin: 0px auto;
+    max-width: 800px;
 }
 
 .stack-img {
@@ -13,12 +12,14 @@
 }
 
 .stack-text {
+    text-align: center;
     align-items: center;
     padding: 30px;
 }
 
 .img {
-    max-width: 1600px;
+    max-width: 400px;
+    width: 100%;
 }
 
 .first-text {
@@ -34,7 +35,7 @@
 
 /* ----------------------------RESPONSIVE---------------------------------------*/
 
-@media(max-width: 800px) {
+@media(max-width: 500px) {
 
     .box-1 {
         display: none;
@@ -63,11 +64,11 @@
     /*---------------------------------------------------------------------*/
 
     #responsive-box {
-        display: inline-block;
+        display: flex;
+        flex-direction: column;
         background-color: rgba(238, 226, 226, 0.555);
         align-items: center;
-        height: 40vh;
-        width: 40vh;
+        width: 100%;
         margin: 0px auto
     }
 
@@ -86,6 +87,7 @@
         height: 40vh;
         width: 40vh;
         padding: 30px;
+        text-align: center;
     }
 
     #responsive-img {
@@ -97,13 +99,13 @@
     #responsive-first-text {
         display: flex;
         color: black;
-        font-size: 20px;
+        font-size: 24px;
     }
 
     #responsive-second-text {
         display: flex;
         color: black;
-        font-size: 15px;
+        font-size: 20px;
     }
 
 }

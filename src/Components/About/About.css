@@ -117,17 +117,17 @@
 
     #responsive-first-text {
         color: black;
-        font-size: 30px;
+        font-size: 32px;
     }
 
     #responsive-second-text {
         color: black;
-        font-size: 20px;
+        font-size: 28px;
     }
 
     #responsive-third-text {
         color: black;
-        font-size: 15px;
+        font-size: 24px;
     }
 
 }
@@ -165,17 +165,17 @@
 
     #responsive-first-text {
         color: black;
-        font-size: 20px;
+        font-size: 24px;
     }
 
     #responsive-second-text {
         color: black;
-        font-size: 15px;
+        font-size: 20px;
     }
 
     #responsive-third-text {
         color: black;
-        font-size: 13px;
+        font-size: 18px;
     }
 
 }

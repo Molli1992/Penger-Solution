@@ -63,7 +63,7 @@
     /*---------------------------------------------------------------------*/
 
     #responsive-box {
-        display: block;
+        display: inline-block;
         background-color: rgba(238, 226, 226, 0.555);
         align-items: center;
         height: 40vh;

@@ -1,6 +1,8 @@
 import React from "react";
 import { Box, Image, Text, Stack, Card, CardBody } from '@chakra-ui/react';
 import "./Home.css";
+import "../Services/Services.css";
+import "../Contact/Contact.css";
 
 
 

@@ -47,7 +47,7 @@ header {
 }
 
 .action_btn {
-    background-color: orange;
+    background-color: rgb(153, 148, 140);
     color: #fff;
     padding: 0.5rem 1rem;
     border: none;
@@ -99,7 +99,7 @@ header {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: orange;
+    background-color: rgb(153, 148, 140);
     color: #fff;
     padding: 0.5rem 1rem;
     border: none;

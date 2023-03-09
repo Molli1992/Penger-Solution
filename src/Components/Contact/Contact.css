@@ -8,16 +8,16 @@
 
 .stack-img {
     align-items: center;
-    padding: 30px;
 }
 
 .stack-text {
+    padding: 50px;
     text-align: center;
     align-items: center;
-    padding: 30px;
 }
 
 .img {
+    padding: 10px;
     max-width: 400px;
     width: 100%;
 }
@@ -68,32 +68,26 @@
         flex-direction: column;
         background-color: rgba(238, 226, 226, 0.555);
         align-items: center;
-        width: 100%;
-        margin: 0px auto
+        max-width: 600px;
+        margin: 0px auto;
     }
 
     #responsive-stack-img {
         display: flex;
         align-items: center;
-        height: 40vh;
-        width: 40vh;
-        padding: 30px;
     }
 
     #responsive-stack-text {
         display: flex;
-        background-color: rgba(238, 226, 226, 0.555);
         align-items: center;
-        height: 40vh;
-        width: 40vh;
-        padding: 30px;
         text-align: center;
     }
 
     #responsive-img {
+        padding: 10px;
         display: flex;
-        height: 30vh;
-        width: 30vh;
+        max-width: 400px;
+        width: 100%;
     }
 
     #responsive-first-text {

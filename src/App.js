@@ -6,7 +6,6 @@ import About from "./Components/About/About";
 import Services from "./Components/Services/Services";
 import Contact from "./Components/Contact/Contact";
 import Providers from "./Components/Providers/Providers";
-import "./App.css";
 
 
 
@@ -17,17 +16,15 @@ function App() {
 
       <Header />
 
-      <div className="App">
-        <Routes>
+      <Routes>
 
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/about" element={<About />} />
-          <Route exact path="/services" element={<Services />} />
-          <Route exact path="/contact" element={<Contact />} />
-          <Route exact path="/about-1" element={<Providers />} />
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/about" element={<About />} />
+        <Route exact path="/services" element={<Services />} />
+        <Route exact path="/contact" element={<Contact />} />
+        <Route exact path="/about-1" element={<Providers />} />
 
-        </Routes>
-      </div>
+      </Routes>
 
       <Footer />
 

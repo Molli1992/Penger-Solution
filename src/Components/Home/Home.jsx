@@ -43,12 +43,8 @@ function Home() {
                     <Text id="responsive-first-text" className="first-text">About Lumina Crystal</Text>
                     <Text id="responsive-second-text" className="second-text">HONEST & EFFICIENT WORK</Text>
                     <Text id="responsive-third-text" className="third-text">
-                        Our mission at Lumina Crystal is simple: to provide high-quality
-                        services for our valued clients. Our team goes above and beyond to
-                        cater to each project’s specific needs. Through open
-                        communication and exceptional service, we hope you’ll find what
-                        you’re looking for with our Logistics Service. For more information or
-                        general inquiries, get in touch today.
+                        Order fulfillment: Processing orders from customers, picking, packing,
+                        and shipping products to the end consumer in a timely and efficient manner.
                     </Text>
 
                 </Stack>
@@ -70,6 +66,16 @@ function Home() {
 
                     <Text id="responsive-first-text" className="first-text">Our Services</Text>
                     <Text id="responsive-second-text" className="second-text" >WHAT WE PROVIDE</Text>
+                    <br></br>
+                    <Text id="responsive-third-text" className="third-text">
+                        Transportation management: Coordinating the movement of goods via various modes of transport
+                        such as trucks, ships, planes, and trains.
+                    </Text>
+                    <br></br>
+                    <Text id="responsive-third-text" className="third-text">
+                        Inventory management: Optimizing inventory levels to ensure that the right amount of goods is
+                        available at the right time, while minimizing inventory carrying costs.
+                    </Text>
 
                 </Stack>
 
@@ -90,15 +96,12 @@ function Home() {
 
                 <Stack id="responsive-stack-text-services" className="stack-text-services">
 
-                    <Text id="responsive-first-text" className="first-text">INTERNATIONAL ADVISORY</Text>
+                    <Text id="responsive-first-text" className="first-text">Supply chain management</Text>
                     <Text id="responsive-third-text" className="third-text">
-                        We offer differentiated solutions in the
-                        search of products, partners, and new
-                        markets. We develop an in-depth market
-                        research using the SWOT analysis tool to
-                        fulfill each client needs and facilitate the
-                        success of products in international
-                        markets.
+                        Managing the entire supply chain, from suppliers to
+                        manufacturers to distributors to retailers and finally to
+                        consumers, to ensure seamless integration and maximum
+                        efficiency.
                     </Text>
 
                 </Stack>
@@ -109,12 +112,11 @@ function Home() {
 
                 <Stack id="responsive-stack-text-services" className="stack-text-services">
 
-                    <Text id="responsive-first-text" className="first-text">STRATEGIC GLOBAL SOURCING</Text>
+                    <Text id="responsive-first-text" className="first-text">Sustainability</Text>
                     <Text id="responsive-third-text" className="third-text">
-                        Conquer Trader works with clients to
-                        enhance their competitive advantage by
-                        locating partners/buyers in various countries
-                        to sell products and services in new markets
+                        Implementing environmentally responsible practices, such as
+                        using fuel-efficient vehicles, reducing packaging waste, and
+                        adopting renewable energy sources.
                     </Text>
 
                 </Stack>
@@ -124,7 +126,7 @@ function Home() {
                     <Image
                         id="responsive-img-services"
                         className="img-services"
-                        src='https://previews.123rf.com/images/tomas1111/tomas11111704/tomas1111170400099/77384954-camiones-transporte-transporte-de-carga-transporte-mar%C3%ADtimo.jpg'
+                        src='https://mobilidade.estadao.com.br/wp-content/uploads/2019/11/iStock-1021291420.jpg'
                         alt='Ship'
                     />
 

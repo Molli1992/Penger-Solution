@@ -41,10 +41,10 @@ function Services() {
 
                     <Text id="responsive-first-text" className="first-text">GPS Fleet Tracking</Text>
                     <Text id="responsive-third-text" className="third-text">
-                        Since its founding, Lumina Crystal has been one of the most trusted
-                        names in the industry. Hire us for this service and learn how we
-                        cater to the needs of each client, ensuring the results you need and
-                        deserve.
+                        Technology solutions: Utilizing the latest technology to
+                        optimize logistics processes, such as track-and-trace
+                        systems, real-time inventory tracking, and predictive
+                        analytics.
                     </Text>
 
                 </Stack>
@@ -57,10 +57,10 @@ function Services() {
 
                     <Text id="responsive-first-text" className="first-text">Route Planning</Text>
                     <Text id="responsive-third-text" className="third-text">
-                        We have the experience and skills necessary to tackle just about
-                        every type of job that comes our way. With Lumina Crystal, clients
-                        know exactly what to expect - professionalism, efficiency and
-                        exceptional results.
+                        Warehousing and distribution: Providing secure, climate-
+                        controlled storage facilities for goods, as well as managing
+                        the sorting, packing, and distribution of those goods to their
+                        final destination.
                     </Text>
 
                 </Stack>

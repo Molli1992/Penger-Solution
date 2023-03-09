@@ -41,9 +41,6 @@ function Providers() {
 
         <Box backgroundColor="white">
 
-            <br></br>
-            <br></br>
-
             <Stack alignItems="center">
 
                 <Box>
@@ -67,91 +64,43 @@ function Providers() {
 
             </Stack>
 
-            <br></br>
-
             <Stack alignItems="center" padding="15px" className='stack-text-providers'>
 
                 <Text id="responsive-first-text" className="first-text">About</Text>
                 <Text id="responsive-second-text" className="second-text">Freight Payment Providers</Text>
 
                 <Text id="responsive-third-text" className="third-text">
-                    Freight payment providers or third-party logistics providers (3PL’s) act as the intermediary between two parties in
-                    the receiving, processing, payment of accounts payable. While each 3PL provides unique freight payment solutions,
-                    generally speaking, invoices are processed and paid directly by the 3PL, then reimbursed by the client. Essentially,
-                    the outsourced freight invoice payment company eliminates the need for an account payable division within
-                    companies or organizations. This saves the company money on payroll and allows them to allocate those
-                    employees to more productive business growth or operations roles.
+                    Freight Payment Providers (FPP) are companies that specialize in managing the payment and settlement of freight
+                    bills for shippers, carriers, and other stakeholders in the transportation industry.
+                    FPPs typically offer a range of services, including invoice processing, dispute resolution,
+                    carrier payment, and freight audit and analysis.
                 </Text>
 
                 <br></br>
 
                 <Text id="responsive-third-text" className="third-text">
-                    Invoice processing is a rather complex series of individual steps to ensure prompt and accurate payment of
-                    invoices. Noted below are the common steps that professional 3PL’s use to review, process, and pay freight bills on
-                    behalf of their clients.
+                    With the complex and often fragmented nature of the transportation industry, FPPs can help
+                    streamline payment processes and improve visibility into transportation costs.
+                    By consolidating and analyzing data from multiple sources, FPPs can identify discrepancies,
+                    billing errors, and overcharges, helping shippers and carriers to save money and
+                    improve operational efficiency.
                 </Text>
 
                 <br></br>
 
                 <Text id="responsive-third-text" className="third-text">
-                    • Receipt of the Invoice: When a partnership has been created between a shipper and a 3PL, all carriers are notified
-                    that the freight payment company is acting on behalf of their client. At this point, all carriers will submit invoices to
-                    the 3PL or intermediary in multiple formats for processing. In most cases, the typical method of invoice submittal
-                    includes USPS mail or electronic invoices sent via EDI.
+                    FPPs may also offer value-added services such as benchmarking, contract negotiation,
+                    and transportation management consulting to help their clients optimize their logistics operations and
+                    stay competitive in the marketplace.
                 </Text>
 
                 <br></br>
 
                 <Text id="responsive-third-text" className="third-text">
-                    • Validation of the Invoice: Once the invoices from carriers have been received by the 3PL, the freight payment
-                    provider will validate each invoice to ensure that duplicate charges are not appearing on the invoice, are charges
-                    that have been incurred by the shipper, and include all required documentation.
+                    Overall, Freight Payment Providers play a critical role in facilitating the movement of goods and
+                    services around the world, by ensuring that the payment and settlement of freight bills is accurate,
+                    timely, and efficient.
                 </Text>
-
-                <br></br>
-
-                <Text id="responsive-third-text" className="third-text">
-                    • Capturing Data: This is a service that makes a 3PL stand out above competitors. Freight payment companies
-                    capture comprehensive amounts of data elements from the freight billing invoices and the supporting
-                    documentation to establish a report-based database. The shipper can use this data to fine-tune their supply chain
-                    operations.
-                </Text>
-
-                <br></br>
-
-                <Text id="responsive-third-text" className="third-text">
-                    • Service & Rate Auditing: When the invoice is being reviewed for errors, the auditing of rates and services will
-                    begin. Freight auditing also includes negotiating better rates from the carrier to the shipper. 3PL’s maintain
-                    exceptional relationships with multiple carriers, which provides them the expertise and experience to secure base
-                    rates or special service rates. While the auditing process is first and foremost a mistake-finding mission, it’s also a
-                    great time to optimize service rates between shippers and carriers.
-                </Text>
-
-                <br></br>
-
-                <Text id="responsive-third-text" className="third-text">
-                    • Accounting: Before the invoices have been paid, the professional freight invoice provider will utilize accounting
-                    methods to correctly document and ledger through correct general ledger codes that are provided by the shipper to
-                    keep all charges correctly documented.
-                </Text>
-
-                <br></br>
-
-                <Text id="responsive-third-text" className="third-text">
-                    • Exception Management: There are always exceptions to processing invoices in logistics. When an exception
-                    occurs, the 3PL will act ethically but swiftly on behalf of their shipper clients to resolve it – with as little hassle as
-                    possible.
-                </Text>
-
-                <br></br>
-
-                <Text id="responsive-third-text" className="third-text">
-                    • Payment: When the invoice has been completed audited, documented, and ensured for accuracy, the 3PL will
-                    either pay the invoice or submit a final invoice report to the shipper – so they can submit funds to the 3PL to pay the
-                    carrier.
-                </Text>
-
-                <br></br>
 
             </Stack>
 

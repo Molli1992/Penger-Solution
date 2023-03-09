@@ -78,6 +78,54 @@ function Services() {
 
             </Box >
 
+            <Box id="responsive-box-1-services" className="box-1-services">
+
+                <Stack id="responsive-stack-img-services" className="stack-img-services">
+
+                    <Image
+                        id="responsive-img-services"
+                        className="img-services"
+                        src='https://aldiaargentina.microjuris.com/wp-content/uploads/2019/03/relacic3b3n-laboral.jpg'
+                        alt='GPS'
+                    />
+
+                </Stack>
+
+                <Stack id="responsive-stack-text-services" className="stack-text-services">
+
+                    <Text id="responsive-first-text" className="first-text">Customs brokerage</Text>
+                    <Text id="responsive-third-text" className="third-text">
+                        Assisting with customs clearance and compliance to ensure the legal import and export of goods.
+                    </Text>
+
+                </Stack>
+
+            </Box >
+
+            <Box id="responsive-box-1-services" className="box-1-services">
+
+                <Stack id="responsive-stack-text-services" className="stack-text-services">
+
+                    <Text id="responsive-first-text" className="first-text">Value-added services</Text>
+                    <Text id="responsive-third-text" className="third-text">
+                        Providing additional services such as packaging, labeling, kitting, assembly, and quality control.
+                    </Text>
+
+                </Stack>
+
+                <Stack id="responsive-stack-img-services" className="stack-img-services">
+
+                    <Image
+                        id="responsive-img-services"
+                        className="img-services"
+                        src='https://www.itc-packaging.com/uploads/job_offers/1024x600%20mozo.jpg'
+                        alt='MAP'
+                    />
+
+                </Stack>
+
+            </Box >
+
         </div>
 
     );

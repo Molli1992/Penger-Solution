@@ -56,7 +56,7 @@ function Home() {
                     <Image
                         id="responsive-img-home"
                         className="img-home"
-                        src='https://media.istockphoto.com/photos/business-logistics-and-transportation-concept-of-containers-cargo-picture-id1273907220?s=2048x2048'
+                        src='https://www.nationalgeographic.com.es/medio/2022/09/07/medios-de-transporte_b5d866d8_1280x720.jpg'
                         alt='Ship'
                     />
 

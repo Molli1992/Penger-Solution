@@ -9,13 +9,17 @@ li {
     list-style: none;
 }
 
-a {
+.navbar .links button {
+    border-radius: none;
+    border: none;
+    outline: none;
+    background-color: #fff;
     text-decoration: none;
     color: black;
     font-size: 1rem;
 }
 
-a:hover {
+.navbar .links button:hover {
     color: rgb(153, 148, 140);
 }
 
@@ -36,9 +40,18 @@ header {
 }
 
 
-.navbar .logo a {
+.navbar .logo button {
+    background-color: #fff;
+    border-radius: none;
+    border: none;
+    outline: none;
+    text-decoration: none;
     font-size: 1.5rem;
     font-weight: bold;
+}
+
+.navbar .logo button:hover {
+    color: rgb(153, 148, 140);
 }
 
 .navbar .links {
@@ -85,7 +98,7 @@ header {
 }
 
 .dropdown_menu.open {
-    height: 240px;
+    height: 300px;
 }
 
 .dropdown_menu li {
@@ -113,10 +126,35 @@ header {
 
 .action_btn_responsive:hover {
     scale: 1.05;
-    color: #fff;
+    color: black;
 }
 
 .action_btn_responsive:active {
+    scale: 0.95;
+}
+
+.home_btn_responsive {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(153, 148, 140);
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale 0.2 ease;
+}
+
+.home_btn_responsive:hover {
+    scale: 1.05;
+    color: black;
+}
+
+.home_btn_responsive:active {
     scale: 0.95;
 }
 

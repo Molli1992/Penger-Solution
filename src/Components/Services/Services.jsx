@@ -15,7 +15,7 @@ function Services() {
 
     return (
 
-        <div>
+        <Box backgroundColor="#321B1B">
 
             <Stack id="responsive-stack-text-services" className="stack-text-services">
 
@@ -24,7 +24,7 @@ function Services() {
 
             </Stack>
 
-            <Box id="responsive-box-1-services" className="box-1-services">
+            <Box id="responsive-box-1-services" className="box-1-services" backgroundColor="#321B1B">
 
                 <Stack id="responsive-stack-img-services" className="stack-img-services">
 
@@ -51,7 +51,7 @@ function Services() {
 
             </Box >
 
-            <Box id="responsive-box-1-services" className="box-1-services">
+            <Box id="responsive-box-1-services" className="box-1-services" backgroundColor="#321B1B">
 
                 <Stack id="responsive-stack-text-services" className="stack-text-services">
 
@@ -78,7 +78,7 @@ function Services() {
 
             </Box >
 
-            <Box id="responsive-box-1-services" className="box-1-services">
+            <Box id="responsive-box-1-services" className="box-1-services" backgroundColor="#321B1B">
 
                 <Stack id="responsive-stack-img-services" className="stack-img-services">
 
@@ -102,7 +102,7 @@ function Services() {
 
             </Box >
 
-            <Box id="responsive-box-1-services" className="box-1-services">
+            <Box id="responsive-box-1-services" className="box-1-services" backgroundColor="#321B1B">
 
                 <Stack id="responsive-stack-text-services" className="stack-text-services">
 
@@ -126,7 +126,7 @@ function Services() {
 
             </Box >
 
-        </div>
+        </Box>
 
     );
 

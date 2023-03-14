@@ -1,7 +1,7 @@
 .box-1-services {
     display: flex;
     justify-content: space-between;
-    background-color: white;
+    background: #321B1B;
     align-items: center;
     margin: 0px auto;
     padding: 15px;
@@ -24,18 +24,21 @@
 }
 
 .first-text {
-    color: black;
+    color: white;
     font-size: 40px;
+    font-style: italic;
 }
 
 .second-text {
-    color: black;
+    color: white;
     font-size: 25px;
+    font-style: italic;
 }
 
 .third-text {
-    color: black;
+    color: white;
     font-size: 20px;
+    font-style: italic;
 }
 
 @media(max-width: 1200px) {
@@ -49,7 +52,7 @@
     #responsive-box-1-services {
         display: block;
         justify-content: space-between;
-        background-color: white;
+        background: #321B1B;
         align-items: center;
         margin: 0px auto;
         padding: 15px;
@@ -72,17 +75,17 @@
     }
 
     #responsive-first-text {
-        color: black;
+        color: white;
         font-size: 40px;
     }
 
     #responsive-second-text {
-        color: black;
+        color: white;
         font-size: 25px;
     }
 
     #responsive-third-text {
-        color: black;
+        color: white;
         font-size: 20px;
     }
 
@@ -99,7 +102,7 @@
     #responsive-box-1-services {
         display: block;
         justify-content: space-between;
-        background-color: white;
+        background: #321B1B;
         align-items: center;
         margin: 0px auto;
         padding: 15px;
@@ -122,17 +125,17 @@
     }
 
     #responsive-first-text {
-        color: black;
+        color: white;
         font-size: 30px;
     }
 
     #responsive-second-text {
-        color: black;
+        color: white;
         font-size: 24px;
     }
 
     #responsive-third-text {
-        color: black;
+        color: white;
         font-size: 20px;
     }
 
@@ -149,7 +152,7 @@
     #responsive-box-1-services {
         display: block;
         justify-content: space-between;
-        background-color: white;
+        background: #321B1B;
         align-items: center;
         margin: 0px auto;
         padding: 15px;
@@ -172,17 +175,17 @@
     }
 
     #responsive-first-text {
-        color: black;
+        color: white;
         font-size: 24px;
     }
 
     #responsive-second-text {
-        color: black;
+        color: white;
         font-size: 20px;
     }
 
     #responsive-third-text {
-        color: black;
+        color: white;
         font-size: 18px;
     }
 

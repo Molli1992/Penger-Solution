@@ -13,9 +13,9 @@ li {
     border-radius: none;
     border: none;
     outline: none;
-    background-color: #fff;
+    background: #321B1B;
     text-decoration: none;
-    color: black;
+    color: #fff;
     font-size: 1rem;
 }
 
@@ -24,7 +24,7 @@ li {
 }
 
 header {
-    background-color: white;
+    background: #321B1B;
     position: relative;
     padding: 0 2rem;
 }
@@ -41,13 +41,15 @@ header {
 
 
 .navbar .logo button {
-    background-color: #fff;
+    color: #fff;
+    background: #321B1B;
     border-radius: none;
     border: none;
     outline: none;
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: bold;
+    padding: 0px 15px;
 }
 
 .navbar .logo button:hover {
@@ -60,8 +62,8 @@ header {
 }
 
 .action_btn {
-    background-color: rgb(153, 148, 140);
-    color: #fff;
+    background-color: white;
+    color: black;
     padding: 0.5rem 1rem;
     border: none;
     outline: none;
@@ -74,7 +76,6 @@ header {
 
 .action_btn:hover {
     scale: 1.05;
-    color: #fff;
 }
 
 .action_btn:active {
@@ -163,11 +164,12 @@ header {
     cursor: pointer;
     display: none;
     justify-content: center;
-    background-color: white;
-    color: black;
+    background: #321B1B;
+    color: white;
     border: none;
     outline: none;
     transition: scale 0.2 ease;
+    padding: 0px 15px;
 }
 
 .toggle_btn:hover {

@@ -1,15 +1,15 @@
 .first-text {
-    color: black;
+    color: white;
     font-size: 40px;
 }
 
 .second-text {
-    color: black;
+    color: white;
     font-size: 25px;
 }
 
 .third-text {
-    color: black;
+    color: white;
     font-size: 20px;
 }
 
@@ -28,17 +28,17 @@
 
 
     #responsive-first-text {
-        color: black;
+        color: white;
         font-size: 35px;
     }
 
     #responsive-second-text {
-        color: black;
+        color: white;
         font-size: 25px;
     }
 
     #responsive-third-text {
-        color: black;
+        color: white;
         font-size: 20px;
     }
 
@@ -58,18 +58,21 @@
     /*---------------------------------------------------------------------*/
 
     #responsive-first-text {
-        color: black;
+        color: white;
         font-size: 30px;
+        font-style: italic;
     }
 
     #responsive-second-text {
-        color: black;
+        color: white;
         font-size: 25px;
+        font-style: italic;
     }
 
     #responsive-third-text {
-        color: black;
+        color: white;
         font-size: 20px;
+        font-style: italic;
     }
 
     #responsive-img-home {
@@ -90,17 +93,17 @@
 
 
     #responsive-first-text {
-        color: black;
+        color: white;
         font-size: 24px;
     }
 
     #responsive-second-text {
-        color: black;
+        color: white;
         font-size: 20px;
     }
 
     #responsive-third-text {
-        color: black;
+        color: white;
         font-size: 18px;
     }
 

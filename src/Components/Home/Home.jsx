@@ -11,13 +11,13 @@ function Home() {
 
     return (
 
-        <div>
+        <Box>
 
-            <Box backgroundColor="white">
+            <Box>
 
                 <Stack alignItems="center" padding="30px" className="stack-home-text">
 
-                    <Text id="responsive-first-text" className="first-text">Welcome to Lumina Crystal</Text>
+                    <Text id="responsive-first-text" className="first-text">Welcome to Penger Solution</Text>
                     <Text id="responsive-second-text" className="second-text">ALWAYS AT YOUR SERVICE</Text>
                     <Text id="responsive-third-text" className="third-text">Fair prices, superior quality and exceptional customer service are guaranteed when you work with us.</Text>
 
@@ -40,7 +40,7 @@ function Home() {
 
                 <Stack alignItems="center" padding="30px" className="stack-home-text">
 
-                    <Text id="responsive-first-text" className="first-text">About Lumina Crystal</Text>
+                    <Text id="responsive-first-text" className="first-text">About Penger Solution</Text>
                     <Text id="responsive-second-text" className="second-text">HONEST & EFFICIENT WORK</Text>
                     <Text id="responsive-third-text" className="third-text">
                         Order fulfillment: Processing orders from customers, picking, packing,
@@ -81,7 +81,7 @@ function Home() {
 
             </Box>
 
-            <Box id="responsive-box-1-services" className="box-1-services">
+            <Box id="responsive-box-1-services" className="box-1-services" backgroundColor="#321B1B">
 
                 <Stack id="responsive-stack-img-services" className="stack-img-services">
 
@@ -108,7 +108,7 @@ function Home() {
 
             </Box >
 
-            <Box id="responsive-box-1-services" className="box-1-services">
+            <Box id="responsive-box-1-services" className="box-1-services" backgroundColor="#321B1B">
 
                 <Stack id="responsive-stack-text-services" className="stack-text-services">
 
@@ -164,7 +164,7 @@ function Home() {
 
             </Box >
 
-        </div>
+        </Box>
 
     );
 

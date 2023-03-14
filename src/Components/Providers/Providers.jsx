@@ -7,11 +7,11 @@ import "./Providers.css";
 function Providers() {
 
     const [number, setNumber] = useState(0)
-    const Imagenes = ["https://static.wixstatic.com/media/d2418e4ab94246c690f87ebe383e943b.jpg/v1/fill/w_666,h_444,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Loading%20Cargo.jpg",
-        "https://static.wixstatic.com/media/11062b_0a5c18c328d6470ead944e9e3c394533~mv2_d_7360_4912_s_4_2.jpg/v1/fill/w_665,h_444,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/A%20Port%20Worker.jpg",
-        "https://www.turijobs.com/blog/wp-content/uploads/2018/03/1.jpg",
-        "https://static.wixstatic.com/media/11062b_d00e49cf48f14a40adda61b8c7abbe27~mv2_d_4700_3137_s_4_2.jpg/v1/fill/w_665,h_444,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/A%20Crane%20Lifting%20a%20Container.jpg",
-        "https://elordenmundial.com/wp-content/uploads/2012/12/container-ship-16-wiki-19057.jpg"];
+    const Imagenes = ["https://prosertek.com/wp-content/uploads/trabajadores-puerto2.jpg",
+        "https://cronicaglobal.elespanol.com/uploads/s1/76/62/80/estibadores-desbordados-trabajo_10_670x355.png",
+        "https://lu17.com/wp-content/uploads/2020/10/COVID-19-Back-to-the-workplace-adapting-workplaces-and-protecting-workers-by-EU-OSHA_i1500.jpg",
+        "https://www.rrhhdigital.com/userfiles/operario-trincador.jpg",
+        "https://resizer.iproimg.com/unsafe/880x/filters:format(webp)/https://assets.iprofesional.com/assets/jpg/2020/03/493253.jpg"];
 
 
     const nextHandler = () => {
@@ -39,7 +39,7 @@ function Providers() {
 
     return (
 
-        <Box backgroundColor="white">
+        <Box backgroundColor="#321B1B">
 
             <Stack alignItems="center">
 

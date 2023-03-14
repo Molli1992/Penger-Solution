@@ -4,6 +4,7 @@
     align-items: center;
     margin: 0px auto;
     max-width: 800px;
+    padding: 14px 0px;
 }
 
 .stack-img {
@@ -23,13 +24,15 @@
 }
 
 .first-text {
-    color: black;
+    color: white;
     font-size: 30px;
+    font-style: italic;
 }
 
 .second-text {
-    color: black;
+    color: white;
     font-size: 20px;
+    font-style: italic;
 }
 
 
@@ -92,13 +95,13 @@
 
     #responsive-first-text {
         display: flex;
-        color: black;
+        color: white;
         font-size: 24px;
     }
 
     #responsive-second-text {
         display: flex;
-        color: black;
+        color: white;
         font-size: 20px;
     }
 

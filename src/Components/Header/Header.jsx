@@ -5,6 +5,7 @@ import About from "../About/About";
 import Contact from "../Contact/Contact";
 import Providers from "../Providers/Providers";
 import Services from "../Services/Services";
+import { Box } from '@chakra-ui/react';
 
 
 
@@ -51,15 +52,18 @@ function Header(props) {
 
         return (
 
-            <div>
+            <Box backgroundColor="#321B1B">
 
-                <header>
+                <Box backgroundColor="#321B1B">
 
                     <br></br>
 
                     <div className="navbar">
 
-                        <div className="logo"><button onClick={onClickHome}>Lumina Crystal</button></div>
+                        <div className="logo"><button onClick={onClickHome}>
+                            Penger Solution
+                            <ion-icon name="qr-code-outline"></ion-icon>
+                        </button></div>
 
                         <ul className="links">
 
@@ -102,7 +106,7 @@ function Header(props) {
 
                     </div>
 
-                </header >
+                </Box >
 
                 <div>
 
@@ -110,7 +114,7 @@ function Header(props) {
 
                 </div>
 
-            </div >
+            </Box >
 
         )
 
@@ -119,15 +123,18 @@ function Header(props) {
 
         return (
 
-            <div>
+            <Box backgroundColor="#321B1B">
 
-                <header>
+                <Box backgroundColor="#321B1B">
 
                     <br></br>
 
                     <div className="navbar">
 
-                        <div className="logo"><button onClick={onClickHome}>Lumina Crystal</button></div>
+                        <div className="logo"><button onClick={onClickHome}>
+                            Penger Solution
+                            <ion-icon name="qr-code-outline"></ion-icon>
+                        </button></div>
 
                         <ul className="links">
 
@@ -170,15 +177,15 @@ function Header(props) {
 
                     </div>
 
-                </header >
+                </Box >
 
-                <div>
+                <Box backgroundColor="#321B1B">
 
                     <About />
 
-                </div>
+                </Box>
 
-            </div>
+            </Box>
 
         )
 
@@ -187,15 +194,18 @@ function Header(props) {
 
         return (
 
-            <div>
+            <Box backgroundColor="#321B1B">
 
-                <header>
+                <Box backgroundColor="#321B1B">
 
                     <br></br>
 
                     <div className="navbar">
 
-                        <div className="logo"><button onClick={onClickHome}>Lumina Crystal</button></div>
+                        <div className="logo"><button onClick={onClickHome}>
+                            Penger Solution
+                            <ion-icon name="qr-code-outline"></ion-icon>
+                        </button></div>
 
                         <ul className="links">
 
@@ -238,15 +248,15 @@ function Header(props) {
 
                     </div>
 
-                </header >
+                </Box >
 
-                <div>
+                <Box backgroundColor="#321B1B">
 
                     <Services />
 
-                </div>
+                </Box>
 
-            </div>
+            </Box>
 
         )
 
@@ -255,15 +265,18 @@ function Header(props) {
 
         return (
 
-            <div>
+            <Box backgroundColor="#321B1B">
 
-                <header>
+                <Box backgroundColor="#321B1B">
 
                     <br></br>
 
                     <div className="navbar">
 
-                        <div className="logo"><button onClick={onClickHome}>Lumina Crystal</button></div>
+                        <div className="logo"><button onClick={onClickHome}>
+                            Penger Solution
+                            <ion-icon name="qr-code-outline"></ion-icon>
+                        </button></div>
 
                         <ul className="links">
 
@@ -306,15 +319,15 @@ function Header(props) {
 
                     </div>
 
-                </header >
+                </Box >
 
-                <div>
+                <Box backgroundColor="#321B1B">
 
                     <Contact />
 
-                </div>
+                </Box>
 
-            </div>
+            </Box>
 
         )
 
@@ -323,15 +336,18 @@ function Header(props) {
 
         return (
 
-            <div>
+            <Box backgroundColor="#321B1B">
 
-                <header>
+                <Box backgroundColor="#321B1B">
 
                     <br></br>
 
                     <div className="navbar">
 
-                        <div className="logo"><button onClick={onClickHome}>Lumina Crystal</button></div>
+                        <div className="logo"><button onClick={onClickHome}>
+                            Penger Solution
+                            <ion-icon name="qr-code-outline"></ion-icon>
+                        </button></div>
 
                         <ul className="links">
 
@@ -374,15 +390,15 @@ function Header(props) {
 
                     </div>
 
-                </header >
+                </Box >
 
-                <div>
+                <Box backgroundColor="#321B1B">
 
                     <Providers />
 
-                </div>
+                </Box>
 
-            </div>
+            </Box>
 
         )
 

@@ -26,11 +26,11 @@ function About() {
 
             <Stack id="responsive-stack-text-about" className="stack-text-about">
 
-                <Text id="responsive-first-text" className="first-text">All About Lumina Crystal</Text>
+                <Text id="responsive-first-text" className="first-text">All About Penger Solution</Text>
                 <Text id="responsive-second-text" className="second-text">PROFESSIONALISM. EXCELLENCE. TIMELINESS.</Text>
                 <br></br>
                 <Text id="responsive-third-text" className="third-text">
-                    Fast, efficient, and honest, Lumina Crystal has become a reputable
+                    Fast, efficient, and honest, Penger Solution has become a reputable
                     and well-known Logistics Service. Our team is up for every job,
                     managing projects with the skill and experience our clients have
                     come to expect. We want our customers to be satisfied with our

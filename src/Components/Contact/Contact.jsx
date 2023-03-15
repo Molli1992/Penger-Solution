@@ -29,8 +29,8 @@ function Contact() {
                 <Text id="responsive-first-text" className="first-text">Get in Touch</Text>
                 <Text id="responsive-second-text" className="second-text">7901 4th St N</Text>
                 <Text id="responsive-second-text" className="second-text">STE 5368</Text>
-                <Text id="responsive-second-text" className="second-text">St. Petersburg, FL 33702</Text>
-                <Text id="responsive-second-text" className="second-text">info@luminacrystal.net</Text>
+                <Text id="responsive-second-text" className="second-text">Argentina, Buenos Aires</Text>
+                <Text id="responsive-second-text" className="second-text">info@pengersolution.net</Text>
                 <Text id="responsive-second-text" className="second-text">(786) 790-9763</Text>
                 <br></br>
                 <br></br>

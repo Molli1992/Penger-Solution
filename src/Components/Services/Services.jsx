@@ -1,7 +1,6 @@
 import React from "react";
 import {
-    Box, Image, Text, Stack, Card, CardBody,
-    Heading, Divider, CardFooter, ButtonGroup, Button
+    Box, Image, Text, Stack
 } from '@chakra-ui/react';
 import "./Services.css";
 
@@ -10,7 +9,6 @@ import "./Services.css";
 
 function Services() {
 
-    const breakpoints = ['0em', '30em', '48em', '62em', '80em', '96em'];
 
 
     return (

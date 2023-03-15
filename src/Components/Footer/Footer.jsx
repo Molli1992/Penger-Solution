@@ -23,12 +23,12 @@ function Footer() {
 
                     <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
 
-                        <li class="ms-3"><a class="text-white" href="https://www.facebook.com/felipeblaksley/" target="_blank">
+                        <li class="ms-3"><a class="text-white" href="/" target="_blank">
                             <ion-icon name="logo-facebook" size="large"></ion-icon>
                         </a>
                         </li>
 
-                        <li class="ms-3"><a class="text-white" href="https://www.linkedin.com/in/felipe-blaksley-iraola-141b32236/" target="_blank">
+                        <li class="ms-3"><a class="text-white" href="/" target="_blank">
                             <ion-icon name="logo-linkedin" size="large"></ion-icon>
                         </a></li>
 

@@ -181,6 +181,10 @@ header {
     scale: 0.95;
 }
 
+.max-heigth {
+    min-height: calc(100vh - 118px - 84px);
+}
+
 /* Responsive Desing */
 
 @media(max-width: 850px) {

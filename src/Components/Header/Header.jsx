@@ -179,7 +179,7 @@ function Header(props) {
 
                 </Box >
 
-                <Box backgroundColor="#321B1B">
+                <Box backgroundColor="#321B1B" className="max-heigth">
 
                     <About />
 
@@ -321,7 +321,7 @@ function Header(props) {
 
                 </Box >
 
-                <Box backgroundColor="#321B1B">
+                <Box backgroundColor="#321B1B" className="max-heigth">
 
                     <Contact />
 

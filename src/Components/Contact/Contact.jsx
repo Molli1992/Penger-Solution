@@ -27,11 +27,11 @@ function Contact() {
             <Stack id="responsive-stack-text" className="stack-text">
 
                 <Text id="responsive-first-text" className="first-text">Get in Touch</Text>
-                <Text id="responsive-second-text" className="second-text">7901 4th St N</Text>
-                <Text id="responsive-second-text" className="second-text">STE 5368</Text>
+                <Text id="responsive-second-text" className="second-text">3511 NW 113th ct </Text>
+                <Text id="responsive-second-text" className="second-text">Doral FL 33178</Text>
                 <Text id="responsive-second-text" className="second-text">Argentina, Buenos Aires</Text>
-                <Text id="responsive-second-text" className="second-text">info@pengersolution.net</Text>
-                <Text id="responsive-second-text" className="second-text">(786) 790-9763</Text>
+                <Text id="responsive-second-text" className="second-text">pengersolutionsllc@gmail.com</Text>
+                <Text id="responsive-second-text" className="second-text">+1 (786) 834 1705</Text>
                 <br></br>
                 <br></br>
 

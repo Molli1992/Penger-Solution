@@ -21,6 +21,20 @@ function Footer() {
                         <span class="mb-3 mb-md-0 text-white">&copy; 2022 Company, Inc</span>
                     </div>
 
+                </footer>
+
+            </div>
+
+        </Box>
+
+    );
+
+};
+
+export default Footer;
+
+/*
+
                     <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
 
                         <li class="ms-3"><a class="text-white" href="/" target="_blank" rel="noreferrer">
@@ -33,15 +47,4 @@ function Footer() {
                         </a></li>
 
                     </ul>
-
-                </footer>
-
-            </div>
-
-        </Box>
-
-    );
-
-};
-
-export default Footer;
+*/

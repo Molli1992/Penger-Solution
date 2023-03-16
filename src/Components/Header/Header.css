@@ -174,7 +174,7 @@ header {
 
 .toggle_btn:hover {
     scale: 1.05;
-    color: black;
+    color: rgb(202, 161, 161);
 }
 
 .toggle_btn:active {

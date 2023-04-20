@@ -39,7 +39,7 @@ function Providers() {
 
     return (
 
-        <Box backgroundColor="#321B1B">
+        <Box backgroundColor="#321B1B" className='body-providers'>
 
             <Stack alignItems="center">
 

@@ -11,35 +11,39 @@ function Contact() {
 
     return (
 
-        <Box id="responsive-box" className="box-1">
+        <div className="body-contact">
 
-            <Stack id="responsive-stack-img" className="stack-img">
+            <Box id="responsive-box" className="box-1">
 
-                <Image
-                    id="responsive-img"
-                    className="img"
-                    src='http://www.wirsolut.com/images/contacto/imagen-contacto-wirsolut.png'
-                    alt='Workers'
-                />
+                <Stack id="responsive-stack-img" className="stack-img">
 
-            </Stack>
+                    <Image
+                        id="responsive-img"
+                        className="img"
+                        src='http://www.wirsolut.com/images/contacto/imagen-contacto-wirsolut.png'
+                        alt='Workers'
+                    />
 
-            <Stack id="responsive-stack-text" className="stack-text">
+                </Stack>
 
-                <Text id="responsive-first-text" className="first-text">Get in Touch</Text>
-                <Text id="responsive-second-text" className="second-text">3511 NW 113th ct </Text>
-                <Text id="responsive-second-text" className="second-text">Doral FL 33178</Text>
-                <Text id="responsive-second-text" className="second-text">Argentina, Buenos Aires</Text>
-                <Text id="responsive-second-text" className="second-text">pengersolutionsllc@gmail.com</Text>
-                <Text id="responsive-second-text" className="second-text">+1 (786) 834 1705</Text>
+                <Stack id="responsive-stack-text" className="stack-text">
+
+                    <Text id="responsive-first-text" className="first-text">Get in Touch</Text>
+                    <Text id="responsive-second-text" className="second-text">3511 NW 113th ct </Text>
+                    <Text id="responsive-second-text" className="second-text">Doral FL 33178</Text>
+                    <Text id="responsive-second-text" className="second-text">Argentina, Buenos Aires</Text>
+                    <Text id="responsive-second-text" className="second-text">pengersolutionsllc@gmail.com</Text>
+                    <Text id="responsive-second-text" className="second-text">+1 (786) 834 1705</Text>
+                    <br></br>
+                    <br></br>
+
+                </Stack>
+
                 <br></br>
-                <br></br>
 
-            </Stack>
+            </Box >
 
-            <br></br>
-
-        </Box >
+        </div>
 
     );
 

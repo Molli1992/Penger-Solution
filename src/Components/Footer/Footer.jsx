@@ -8,7 +8,7 @@ function Footer() {
 
     return (
 
-        <Box backgroundColor="#321B1B" padding="1px">
+        <Box backgroundColor="rgb(44, 16, 54)" padding="1px">
 
             <div class="container">
 

@@ -1,7 +1,7 @@
 .box-1-services {
     display: flex;
     justify-content: space-between;
-    background: #321B1B;
+    background: white;
     align-items: center;
     margin: 0px auto;
     padding: 15px;
@@ -24,21 +24,21 @@
 }
 
 .first-text {
-    color: white;
+    color: black;
     font-size: 40px;
-    font-style: italic;
+    font-family: serif;
 }
 
 .second-text {
-    color: white;
+    color: black;
     font-size: 25px;
-    font-style: italic;
+    font-family: serif;
 }
 
 .third-text {
-    color: white;
+    color: black;
     font-size: 20px;
-    font-style: italic;
+    font-family: serif;
 }
 
 @media(max-width: 1200px) {
@@ -52,7 +52,7 @@
     #responsive-box-1-services {
         display: block;
         justify-content: space-between;
-        background: #321B1B;
+        background-color: white;
         align-items: center;
         margin: 0px auto;
         padding: 15px;
@@ -75,18 +75,21 @@
     }
 
     #responsive-first-text {
-        color: white;
+        color: black;
         font-size: 40px;
+        font-family: serif;
     }
 
     #responsive-second-text {
-        color: white;
+        color: black;
         font-size: 25px;
+        font-family: serif;
     }
 
     #responsive-third-text {
-        color: white;
+        color: black;
         font-size: 20px;
+        font-family: serif;
     }
 
 }
@@ -102,7 +105,7 @@
     #responsive-box-1-services {
         display: block;
         justify-content: space-between;
-        background: #321B1B;
+        background: white;
         align-items: center;
         margin: 0px auto;
         padding: 15px;
@@ -125,18 +128,21 @@
     }
 
     #responsive-first-text {
-        color: white;
+        color: black;
         font-size: 30px;
+        font-family: serif;
     }
 
     #responsive-second-text {
-        color: white;
+        color: black;
         font-size: 24px;
+        font-family: serif;
     }
 
     #responsive-third-text {
-        color: white;
+        color: black;
         font-size: 20px;
+        font-family: serif;
     }
 
 }
@@ -152,7 +158,7 @@
     #responsive-box-1-services {
         display: block;
         justify-content: space-between;
-        background: #321B1B;
+        background: white;
         align-items: center;
         margin: 0px auto;
         padding: 15px;
@@ -175,18 +181,21 @@
     }
 
     #responsive-first-text {
-        color: white;
+        color: black;
         font-size: 24px;
+        font-family: serif;
     }
 
     #responsive-second-text {
-        color: white;
+        color: black;
         font-size: 20px;
+        font-family: serif;
     }
 
     #responsive-third-text {
-        color: white;
+        color: black;
         font-size: 18px;
+        font-family: serif;
     }
 
 }

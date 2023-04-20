@@ -1,16 +1,19 @@
 .first-text {
-    color: white;
+    color: black;
     font-size: 40px;
+    font-family: serif;
 }
 
 .second-text {
-    color: white;
+    color: black;
     font-size: 25px;
+    font-family: serif;
 }
 
 .third-text {
-    color: white;
+    color: black;
     font-size: 20px;
+    font-family: serif;
 }
 
 .img-home {
@@ -28,18 +31,21 @@
 
 
     #responsive-first-text {
-        color: white;
+        color: black;
         font-size: 35px;
+        font-family: serif;
     }
 
     #responsive-second-text {
-        color: white;
+        color: black;
         font-size: 25px;
+        font-family: serif;
     }
 
     #responsive-third-text {
-        color: white;
+        color: black;
         font-size: 20px;
+        font-family: serif;
     }
 
     #responsive-img-home {
@@ -58,21 +64,21 @@
     /*---------------------------------------------------------------------*/
 
     #responsive-first-text {
-        color: white;
+        color: black;
         font-size: 30px;
-        font-style: italic;
+        font-family: serif;
     }
 
     #responsive-second-text {
-        color: white;
+        color: black;
         font-size: 25px;
-        font-style: italic;
+        font-family: serif;
     }
 
     #responsive-third-text {
-        color: white;
+        color: black;
         font-size: 20px;
-        font-style: italic;
+        font-family: serif;
     }
 
     #responsive-img-home {
@@ -93,18 +99,21 @@
 
 
     #responsive-first-text {
-        color: white;
+        color: black;
         font-size: 24px;
+        font-family: serif;
     }
 
     #responsive-second-text {
-        color: white;
+        color: black;
         font-size: 20px;
+        font-family: serif;
     }
 
     #responsive-third-text {
-        color: white;
+        color: black;
         font-size: 18px;
+        font-family: serif;
     }
 
     #responsive-img-home {

@@ -81,7 +81,7 @@ function Home() {
 
             </Box>
 
-            <Box id="responsive-box-1-services" className="box-1-services" backgroundColor="#321B1B">
+            <Box id="responsive-box-1-services" className="box-1-services" backgroundColor="white">
 
                 <Stack id="responsive-stack-img-services" className="stack-img-services">
 
@@ -108,7 +108,7 @@ function Home() {
 
             </Box >
 
-            <Box id="responsive-box-1-services" className="box-1-services" backgroundColor="#321B1B">
+            <Box id="responsive-box-1-services" className="box-1-services" backgroundColor="white">
 
                 <Stack id="responsive-stack-text-services" className="stack-text-services">
 

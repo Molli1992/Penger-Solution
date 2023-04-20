@@ -53,9 +53,9 @@ function Header(props) {
 
         return (
 
-            <Box backgroundColor="#321B1B">
+            <Box backgroundColor="white">
 
-                <Box backgroundColor="#321B1B">
+                <Box backgroundColor="rgb(44, 16, 54)" height="130px">
 
                     <br></br>
 
@@ -123,9 +123,9 @@ function Header(props) {
 
         return (
 
-            <Box backgroundColor="#321B1B">
+            <Box backgroundColor="white">
 
-                <Box backgroundColor="#321B1B">
+                <Box backgroundColor="rgb(44, 16, 54)" height="130px">
 
                     <br></br>
 
@@ -178,7 +178,7 @@ function Header(props) {
 
                 </Box >
 
-                <Box backgroundColor="#321B1B" className="max-heigth">
+                <Box backgroundColor="white" className="max-heigth">
 
                     <About />
 
@@ -193,9 +193,9 @@ function Header(props) {
 
         return (
 
-            <Box backgroundColor="#321B1B">
+            <Box backgroundColor="white">
 
-                <Box backgroundColor="#321B1B">
+                <Box backgroundColor="rgb(44, 16, 54)" height="130px">
 
                     <br></br>
 
@@ -248,7 +248,7 @@ function Header(props) {
 
                 </Box >
 
-                <Box backgroundColor="#321B1B">
+                <Box backgroundColor="white">
 
                     <Services />
 
@@ -263,9 +263,9 @@ function Header(props) {
 
         return (
 
-            <Box backgroundColor="#321B1B">
+            <Box backgroundColor="white">
 
-                <Box backgroundColor="#321B1B">
+                <Box backgroundColor="rgb(44, 16, 54)" height="130px">
 
                     <br></br>
 
@@ -318,7 +318,7 @@ function Header(props) {
 
                 </Box >
 
-                <Box backgroundColor="#321B1B" className="max-heigth">
+                <Box backgroundColor="white" className="max-heigth">
 
                     <Contact />
 
@@ -333,9 +333,9 @@ function Header(props) {
 
         return (
 
-            <Box backgroundColor="#321B1B">
+            <Box backgroundColor="white">
 
-                <Box backgroundColor="#321B1B">
+                <Box backgroundColor="rgb(44, 16, 54)" height="130px">
 
                     <br></br>
 
@@ -388,7 +388,7 @@ function Header(props) {
 
                 </Box >
 
-                <Box backgroundColor="#321B1B">
+                <Box backgroundColor="white">
 
                     <Providers />
 

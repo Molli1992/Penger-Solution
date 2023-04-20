@@ -13,7 +13,7 @@ li {
     border-radius: none;
     border: none;
     outline: none;
-    background: rgb(44, 16, 54);
+    background: #0B0125;
     text-decoration: none;
     color: #fff;
     font-size: 1rem;
@@ -24,7 +24,7 @@ li {
 }
 
 header {
-    background: rgb(44, 16, 54);
+    background: #0B0125;
     position: relative;
     padding: 0 2rem;
 }
@@ -51,7 +51,7 @@ header {
 
 .navbar .logo button {
     color: #fff;
-    background: rgb(44, 16, 54);
+    background: #0B0125;
     border-radius: none;
     border: none;
     outline: none;
@@ -173,7 +173,7 @@ header {
     cursor: pointer;
     display: none;
     justify-content: center;
-    background: rgb(44, 16, 54);
+    background: #0B0125;
     color: white;
     border: none;
     outline: none;

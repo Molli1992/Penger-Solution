@@ -55,7 +55,7 @@ function Header(props) {
 
             <Box backgroundColor="white">
 
-                <Box backgroundColor="rgb(44, 16, 54)" height="130px">
+                <Box backgroundColor="#0B0125" height="130px">
 
                     <br></br>
 
@@ -125,7 +125,7 @@ function Header(props) {
 
             <Box backgroundColor="white">
 
-                <Box backgroundColor="rgb(44, 16, 54)" height="130px">
+                <Box backgroundColor="#0B0125" height="130px">
 
                     <br></br>
 
@@ -195,7 +195,7 @@ function Header(props) {
 
             <Box backgroundColor="white">
 
-                <Box backgroundColor="rgb(44, 16, 54)" height="130px">
+                <Box backgroundColor="#0B0125" height="130px">
 
                     <br></br>
 
@@ -265,7 +265,7 @@ function Header(props) {
 
             <Box backgroundColor="white">
 
-                <Box backgroundColor="rgb(44, 16, 54)" height="130px">
+                <Box backgroundColor="#0B0125" height="130px">
 
                     <br></br>
 
@@ -335,7 +335,7 @@ function Header(props) {
 
             <Box backgroundColor="white">
 
-                <Box backgroundColor="rgb(44, 16, 54)" height="130px">
+                <Box backgroundColor="#0B0125" height="130px">
 
                     <br></br>
 

@@ -39,6 +39,15 @@ header {
     justify-content: space-between;
 }
 
+.navbar .logo {
+    float: left;
+}
+
+.navbar .logo img {
+    height: 75px;
+    width: 150px;
+}
+
 
 .navbar .logo button {
     color: #fff;

@@ -9,7 +9,7 @@ function Providers() {
     const [number, setNumber] = useState(0)
     const Imagenes = ["https://prosertek.com/wp-content/uploads/trabajadores-puerto2.jpg",
         "https://cronicaglobal.elespanol.com/uploads/s1/76/62/80/estibadores-desbordados-trabajo_10_670x355.png",
-        "https://lu17.com/wp-content/uploads/2020/10/COVID-19-Back-to-the-workplace-adapting-workplaces-and-protecting-workers-by-EU-OSHA_i1500.jpg",
+        "https://www.ceupe.com/images/easyblog_articles/1386/b2ap3_thumbnail_almacen-suministros.jpg",
         "https://www.rrhhdigital.com/userfiles/operario-trincador.jpg",
         "https://resizer.iproimg.com/unsafe/880x/filters:format(webp)/https://assets.iprofesional.com/assets/jpg/2020/03/493253.jpg"];
 

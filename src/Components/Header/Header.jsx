@@ -6,6 +6,7 @@ import Contact from "../Contact/Contact";
 import Providers from "../Providers/Providers";
 import Services from "../Services/Services";
 import { Box } from '@chakra-ui/react';
+import Logo from "../../Logo-penger-solutions.png";
 
 
 
@@ -60,10 +61,9 @@ function Header(props) {
 
                     <div className="navbar">
 
-                        <div className="logo"><button onClick={onClickHome}>
-                            Penger Solution
-                            <ion-icon name="qr-code-outline"></ion-icon>
-                        </button></div>
+                        <div className="logo">
+                            <img src={Logo} alt="Logo" />
+                        </div>
 
                         <ul className="links">
 
@@ -131,10 +131,9 @@ function Header(props) {
 
                     <div className="navbar">
 
-                        <div className="logo"><button onClick={onClickHome}>
-                            Penger Solution
-                            <ion-icon name="qr-code-outline"></ion-icon>
-                        </button></div>
+                        <div className="logo">
+                            <img src={Logo} alt="Logo" />
+                        </div>
 
                         <ul className="links">
 
@@ -202,10 +201,9 @@ function Header(props) {
 
                     <div className="navbar">
 
-                        <div className="logo"><button onClick={onClickHome}>
-                            Penger Solution
-                            <ion-icon name="qr-code-outline"></ion-icon>
-                        </button></div>
+                        <div className="logo">
+                            <img src={Logo} alt="Logo" />
+                        </div>
 
                         <ul className="links">
 
@@ -273,10 +271,9 @@ function Header(props) {
 
                     <div className="navbar">
 
-                        <div className="logo"><button onClick={onClickHome}>
-                            Penger Solution
-                            <ion-icon name="qr-code-outline"></ion-icon>
-                        </button></div>
+                        <div className="logo">
+                            <img src={Logo} alt="Logo" />
+                        </div>
 
                         <ul className="links">
 
@@ -344,10 +341,9 @@ function Header(props) {
 
                     <div className="navbar">
 
-                        <div className="logo"><button onClick={onClickHome}>
-                            Penger Solution
-                            <ion-icon name="qr-code-outline"></ion-icon>
-                        </button></div>
+                        <div className="logo">
+                            <img src={Logo} alt="Logo" />
+                        </div>
 
                         <ul className="links">
 

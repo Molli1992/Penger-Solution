@@ -7,14 +7,14 @@ import Providers from "../Providers/Providers";
 import Services from "../Services/Services";
 import { Box } from "@chakra-ui/react";
 import Logo from "../../Logo-penger-solutions.png";
+import { IoMenu, IoCloseOutline } from "react-icons/io5";
 
 function Header(props) {
   const [pages, setPages] = useState("Home");
   const [icon, setIcon] = useState("lineas");
 
-  const onClick = (e) => {
+  const onClick = () => {
     const DropDownMenu = document.querySelector(".dropdown_menu");
-
     DropDownMenu.classList.toggle("open");
 
     if (icon === "lineas") {
@@ -22,6 +22,10 @@ function Header(props) {
     } else {
       setIcon("lineas");
     }
+  };
+
+  const onClickLogo = () => {
+    setPages("Home");
   };
 
   const onClickHome = (e) => {
@@ -57,7 +61,7 @@ function Header(props) {
 
           <div className="navbar">
             <div className="logo">
-              <img src={Logo} alt="Logo" onClick={onClickHome} />
+              <img src={Logo} alt="Logo" onClick={onClickLogo} />
             </div>
 
             <ul className="links">
@@ -83,9 +87,9 @@ function Header(props) {
 
             <button className="toggle_btn" onClick={onClick}>
               {icon === "lineas" ? (
-                <ion-icon name="reorder-four-outline" size="large"></ion-icon>
+                <IoMenu style={{ fontSize: "32px" }} />
               ) : (
-                <ion-icon name="close-outline" size="large"></ion-icon>
+                <IoCloseOutline style={{ fontSize: "32px" }} />
               )}
             </button>
 
@@ -146,7 +150,7 @@ function Header(props) {
 
           <div className="navbar">
             <div className="logo">
-              <img src={Logo} alt="Logo" onClick={onClickHome} />
+              <img src={Logo} alt="Logo" onClick={onClickLogo} />
             </div>
 
             <ul className="links">
@@ -172,9 +176,9 @@ function Header(props) {
 
             <button className="toggle_btn" onClick={onClick}>
               {icon === "lineas" ? (
-                <ion-icon name="reorder-four-outline" size="large"></ion-icon>
+                <IoMenu style={{ fontSize: "32px" }} />
               ) : (
-                <ion-icon name="close-outline" size="large"></ion-icon>
+                <IoCloseOutline style={{ fontSize: "32px" }} />
               )}
             </button>
 
@@ -235,7 +239,7 @@ function Header(props) {
 
           <div className="navbar">
             <div className="logo">
-              <img src={Logo} alt="Logo" onClick={onClickHome} />
+              <img src={Logo} alt="Logo" onClick={onClickLogo} />
             </div>
 
             <ul className="links">
@@ -261,9 +265,9 @@ function Header(props) {
 
             <button className="toggle_btn" onClick={onClick}>
               {icon === "lineas" ? (
-                <ion-icon name="reorder-four-outline" size="large"></ion-icon>
+                <IoMenu style={{ fontSize: "32px" }} />
               ) : (
-                <ion-icon name="close-outline" size="large"></ion-icon>
+                <IoCloseOutline style={{ fontSize: "32px" }} />
               )}
             </button>
 
@@ -324,7 +328,7 @@ function Header(props) {
 
           <div className="navbar">
             <div className="logo">
-              <img src={Logo} alt="Logo" onClick={onClickHome} />
+              <img src={Logo} alt="Logo" onClick={onClickLogo} />
             </div>
 
             <ul className="links">
@@ -350,9 +354,9 @@ function Header(props) {
 
             <button className="toggle_btn" onClick={onClick}>
               {icon === "lineas" ? (
-                <ion-icon name="reorder-four-outline" size="large"></ion-icon>
+                <IoMenu style={{ fontSize: "32px" }} />
               ) : (
-                <ion-icon name="close-outline" size="large"></ion-icon>
+                <IoCloseOutline style={{ fontSize: "32px" }} />
               )}
             </button>
 
@@ -413,7 +417,7 @@ function Header(props) {
 
           <div className="navbar">
             <div className="logo">
-              <img src={Logo} alt="Logo" onClick={onClickHome} />
+              <img src={Logo} alt="Logo" onClick={onClickLogo} />
             </div>
 
             <ul className="links">
@@ -439,9 +443,9 @@ function Header(props) {
 
             <button className="toggle_btn" onClick={onClick}>
               {icon === "lineas" ? (
-                <ion-icon name="reorder-four-outline" size="large"></ion-icon>
+                <IoMenu style={{ fontSize: "32px" }} />
               ) : (
-                <ion-icon name="close-outline" size="large"></ion-icon>
+                <IoCloseOutline style={{ fontSize: "32px" }} />
               )}
             </button>
 

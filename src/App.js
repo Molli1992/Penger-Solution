@@ -4,10 +4,10 @@ import { Route, Routes, BrowserRouter } from "react-router-dom";
 import Header from './Components/Header/Header';
 import Footer from "./Components/Footer/Footer";
 import Home from "./Components/Home/Home";
-import About from "./Components/about/about";
-import Services from "./Components/services/services";
-import Contact from "./Components/contact/contact";
-import Providers from "./Components/providers/providers";
+import About from "./Components/About/About";
+import Services from "./Components/Services/Services";
+import Contact from "./Components/Contact/Contact";
+import Providers from "./Components/Providers/Providers";
 
 function App() {
   return (

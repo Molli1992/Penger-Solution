@@ -1,51 +1,23 @@
-import React from "react";
-import { Text, Stack, Box, Image } from '@chakra-ui/react';
-import "./Contact.css";
+import styles from "./contact.module.css";
 
+export default function Contact() {
+  return (
+    <div className={styles.body}>
+      <div className={styles.container}>
+        <img
+          src="http://www.wirsolut.com/images/contacto/imagen-contacto-wirsolut.png"
+          alt="log"
+          className={styles.img}
+        />
 
-
-
-function Contact() {
-
-
-
-    return (
-
-        <div className="body-contact">
-
-            <Box id="responsive-box" className="box-1">
-
-                <Stack id="responsive-stack-img" className="stack-img">
-
-                    <Image
-                        id="responsive-img"
-                        className="img"
-                        src='http://www.wirsolut.com/images/contacto/imagen-contacto-wirsolut.png'
-                        alt='Workers'
-                    />
-
-                </Stack>
-
-                <Stack id="responsive-stack-text" className="stack-text">
-
-                    <Text id="responsive-first-text" className="first-text">Contact Us</Text>
-                    <Text id="responsive-second-text" className="second-text">3511 NW 113th ct </Text>
-                    <Text id="responsive-second-text" className="second-text">Doral FL 33178</Text>
-                    <Text id="responsive-second-text" className="second-text">pengersolutionsllc@gmail.com</Text>
-                    <Text id="responsive-second-text" className="second-text">+1 (786) 834 1705</Text>
-                    <br></br>
-                    <br></br>
-
-                </Stack>
-
-                <br></br>
-
-            </Box >
-
+        <div className={styles.containerText}>
+          <h1 className={styles.title}>Contact Us</h1>
+          <p className={styles.text}>3511 NW 113th ct</p>
+          <p className={styles.text}>Doral FL 33178</p>
+          <p className={styles.text}>pengersolutionsllc@gmail.com</p>
+          <p className={styles.text}>+1 (786) 834 1705</p>
         </div>
-
-    );
-
-};
-
-export default Contact;
+      </div>
+    </div>
+  );
+}

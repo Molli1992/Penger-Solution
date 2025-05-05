@@ -17,7 +17,7 @@ function Footer() {
               <FaGithub style={{ fontSize: "24px" }} />
             </a>
             <span class="mb-3 mb-md-0 text-white">
-              &copy; 2022 Company, Inc
+              &copy; 2023 Company, Inc
             </span>
           </div>
         </footer>

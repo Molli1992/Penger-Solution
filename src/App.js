@@ -1,13 +1,13 @@
 import "./app.css";
 import React from "react";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
-import Header from "./components/header/header";
-import Footer from "./components/footer/footer";
-import Home from "./components/home/home";
-import About from "./components/about/about";
-import Services from "./components/services/services";
-import Contact from "./components/contact/contact";
-import Providers from "./components/providers/providers";
+import Header from "./Components/header/header";
+import Footer from "./Components/footer/footer";
+import Home from "./Components/home/home";
+import About from "./Components/about/about";
+import Services from "./Components/services/services";
+import Contact from "./Components/contact/contact";
+import Providers from "./Components/providers/providers";
 
 function App() {
   return (

@@ -24,7 +24,7 @@ export default function Providers() {
     },
     {
       id: "2",
-      img: "https://pengersolutions.netlify.app/static/media/containers.bd78bef978b03f506600.jpg",
+      img: "https://img.interempresas.net/fotos/P1663093.jpg",
     },
     {
       id: "3",
